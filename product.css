@@ -135,6 +135,13 @@
 .blog-post-card3-image {
   width: 500px;
   object-fit: cover;
+  border-radius: 10px;
+}
+
+.blog-post-card3-image:hover
+{
+  transform: scale(1.04);
+  transition: all 0.4s ease-in-out;
 }
 .blog-post-card3-container {
   flex: 1;
@@ -146,6 +153,12 @@
 }
 .blog-post-card3-heading {
   margin-bottom: var(--dl-space-space-threeunits);
+}
+
+.blog-post-card3-heading:hover
+{
+  transform: scale(1.04);
+	transition: all 0.4s ease-in-out;
 }
 .blog-post-card3-container1 {
   display: flex;
@@ -333,7 +346,7 @@
   padding-left: 0px;
   padding-right: 0px;
   justify-content: center;
-  background-color: #DCBFFF;
+  background-color: #f0ece5;
 }
 .product-nav2 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -410,10 +423,10 @@
   height: auto;
   display: flex;
   align-items: flex-start;
-  background-color: #E5D4FF;
+  background-color: #f0ece5;
 }
 .product-blog {
-  width: 1461px;
+  width: 100%;
   display: flex;
   padding: var(--dl-space-space-oneandhalfunits);
   max-width: 100%;
@@ -447,7 +460,7 @@
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-oneandhalfunits);
-  max-width: var(--dl-size-size-maxwidth);
+  max-width: 100%;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
@@ -478,7 +491,7 @@
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-oneandhalfunits);
-  max-width: var(--dl-size-size-maxwidth);
+  max-width: 100%;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
@@ -509,7 +522,7 @@
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-oneandhalfunits);
-  max-width: var(--dl-size-size-maxwidth);
+  max-width: 100%;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
@@ -534,13 +547,13 @@
   height: auto;
   display: flex;
   align-items: flex-start;
-  background-color: #E5D4FF;
+  background-color: #dfdce5;
 }
 .product-blog4 {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-oneandhalfunits);
-  max-width: var(--dl-size-size-maxwidth);
+  max-width: 100%;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
@@ -586,24 +599,54 @@
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
+
+.product-icon18:hover
+{
+  transform: scale(1.5);
+	transition: all 0.4s ease-in-out;
+}
 .product-icon20 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
+}
+
+.product-icon20:hover
+{
+  transform: scale(1.5);
+	transition: all 0.4s ease-in-out;
 }
 .product-icon22 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
+
+.product-icon22:hover
+{
+  transform: scale(1.5);
+	transition: all 0.4s ease-in-out;
+}
 .product-icon24 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
+
+.product-icon24:hover
+{
+  transform: scale(1.5);
+	transition: all 0.4s ease-in-out;
+}
 .product-icon26 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
+}
+
+.product-icon26:hover
+{
+  transform: scale(1.5);
+	transition: all 0.4s ease-in-out;
 }
 .product-container22 {
   width: 100%;
@@ -784,29 +827,29 @@
     height: 80px;
   }
   .product-header1 {
-    background-color: #DCBFFF;
+    background-color: #f0ece5;
   }
   .product-container05 {
-    background-color: #E5D4FF;
+    background-color: #f0ece5;
   }
   .product-container08 {
-    background-color: #E5D4FF;
+    background-color: #f0ece5;
   }
   .product-container11 {
-    background-color: #E5D4FF;
+    background-color: #f0ece5;
   }
   .product-container14 {
-    background-color: #E5D4FF;
+    background-color: #f0ece5;
   }
   .product-container17 {
-    background-color: #E5D4FF;
+    background-color: #f0ece5;
   }
   .product-container21 {
     height: auto;
   }
   .product-social-bar {
     padding: var(--dl-space-space-twounits);
-    background-color: #F1EAFF;
+    background-color: #f0ece5;
   }
   .product-icon24 {
     width: 16px;

@@ -9,12 +9,12 @@
 
   <!-- favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-<link rel="manifest" href="favicon/site.webmanifest">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-<title>Pushpak Drone Viman Pvt. Ltd </title>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>Pushpak Drone Viman Pvt. Ltd </title>
 
   <style data-tag="reset-style-sheet">
     html {
@@ -73,7 +73,7 @@
     [type="button"],
     [type="reset"],
     [type="submit"] { */
-      /* -webkit-appearance: button; */
+    /* -webkit-appearance: button; */
     /* } */
 
     button::-moz-focus-inner,
@@ -137,55 +137,103 @@
     <link href="./index.css" rel="stylesheet" />
 
     <div class="main-page-container">
-      
+
       <div class="main-page-container01">
         <header data-role="Header" class="main-page-header">
           <a href="index.html"><img alt="logo" src="public/external/logo-1500h.png" class="main-page-image" /></a>
           <div class="main-page-nav">
             <nav class="navigation-links2-nav navigation-links2-root-class-name10">
-              <span class="navigation-links2-text" id="navbar-button-hover_effect"><span><a href="index.html">Home</a></span></span>
+              <span class="navigation-links2-text" id="navbar-button-hover_effect"><span><a
+                    href="index.html">Home</a></span></span>
               <span class="navigation-links2-text1" id="navbar-button-hover_effect">
-               
-                <span>Taining &amp; Services</span>
+
+                <!-- <span>Training &amp; Services</span> -->
+                <div class="dropdown">
+                  <div class="dropdown-trigger">Training &amp; Services</div>
+
+                  <div class="dropdown-content">
+                    <div class="mid">
+                      <div class="box">
+                        <a href="#" class="dropdown-item">Item 1</a>
+                        <a href="#" class="dropdown-item">Item 2</a>
+                        <a href="#" class="dropdown-item">Item 3</a>
+                      </div>
+                      <div class="box">
+                        <a href="#" class="dropdown-item">Item 1</a>
+                        <a href="#" class="dropdown-item">Item 2</a>
+                        <a href="#" class="dropdown-item">Item 3</a>
+                      </div>
+                      <div class="box">
+                        <a href="#" class="dropdown-item">Item 1</a>
+                        <a href="#" class="dropdown-item">Item 2</a>
+                        <a href="#" class="dropdown-item">Item 3</a>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
               </span>
               <span class="navigation-links2-text2" id="navbar-button-hover_effect">
-                <span><a href="product.html">Product</a></span>
+                <!-- <span><a href="product.html">Product</a></span> -->
+                <div class="dropdown">
+                  <div class="dropdown-trigger">Product</div>
+
+                  <div class="dropdown-content ok">
+                    <div class="mid">
+                      <div class="box">
+                        <a href="#" class="dropdown-item">Item 1</a>
+                        <a href="#" class="dropdown-item">Item 2</a>
+                        <a href="#" class="dropdown-item">Item 3</a>
+                      </div>
+                      <div class="box">
+                        <a href="#" class="dropdown-item">Item 1</a>
+                        <a href="#" class="dropdown-item">Item 2</a>
+                        <a href="#" class="dropdown-item">Item 3</a>
+                      </div>
+                      <div class="box">
+                        <a href="#" class="dropdown-item">Item 1</a>
+                        <a href="#" class="dropdown-item">Item 2</a>
+                        <a href="#" class="dropdown-item">Item 3</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </span>
               <span class="navigation-links2-text3" id="navbar-button-hover_effect">
                 <span>R&amp;D</span>
               </span>
               <span class="navigation-links2-text4" id="navbar-button-hover_effect">
-                <span>About Us</span>
+                <a href="about-us.html"><span>About Us</span></a>
               </span>
             </nav>
           </div>
           <div class="main-page-btn-group">
             <button class="main-page-register button">Contact Us</button>
           </div>
-          <div data-role="BurgerMenu" class="main-page-burger-menu">
+          <div data-role="BurgerMenu" class="main-page-burger-menu"  id="navy">
             <svg viewBox="0 0 1024 1024" class="main-page-icon">
               <path
                 d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
               </path>
             </svg>
           </div>
-          <div data-role="MobileMenu" class="main-page-mobile-menu">
+          <div data-role="MobileMenu" class="main-page-mobile-menu" id="phone">
             <div class="main-page-nav1">
               <div class="main-page-container02">
-                <img alt="image" src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                  class="main-page-image1" />
+               
                 <div data-role="CloseMobileMenu" class="main-page-menu-close">
-                  <svg viewBox="0 0 1024 1024" class="main-page-icon02">
+                  <svg viewBox="0 0 1024 1024" class="main-page-icon02" id="cross">
                     <path
                       d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z">
                     </path>
                   </svg>
                 </div>
               </div>
-              <nav class="navigation-links2-nav navigation-links2-root-class-name11">
+              <nav class="navigation-links2-nav navigation-links2-root-class-name11 col">
                 <span class="navigation-links2-text"><span>Home</span></span>
                 <span class="navigation-links2-text1">
-                  <span>Taining &amp; Services</span>
+                  <span>Training &amp; Services</span>
                 </span>
                 <span class="navigation-links2-text2">
                   <span>Product</span>
@@ -230,7 +278,7 @@
 
       <div class="main-page-container03" id="get_start" id="training&service">
         <div class="main-page-container04">
-          <div class="main-page-container05" >
+          <div class="main-page-container05">
             <div class="testimonial-card11-testimonial-card testimonial-card11-root-class-name2">
               <div class="testimonial-card11-testimonial">
                 <img alt="profile"
@@ -470,11 +518,14 @@
       </div>
       <div class="main-page-container13">
         <div class="main-page-social-bar">
-         <a href="https://twitter.com/i/flow/login" target="_blank">
-          <svg class="main-page-icon10" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
-          </svg>
-         </a>
+
+          <a href="https://twitter.com/i/flow/login" target="_blank">
+            <svg class="main-page-icon10" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-twitter-x" viewBox="0 0 16 16">
+              <path
+                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+            </svg>
+          </a>
 
           <a href="https://www.instagram.com/reels/Cz6QLwbynRd/" target="_blank">
             <svg viewBox="0 0 877.7142857142857 1024" class="main-page-icon12">
@@ -483,23 +534,23 @@
               </path>
             </svg>
           </a>
-          
-         <a href="https://www.facebook.com/" target="_blank">
-          <svg viewBox="0 0 602.2582857142856 1024" class="main-page-icon14">
-            <path
-              d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z">
-            </path>
-          </svg>
-         </a>
-          
-          <a href="whatsapp:contact=+917523801921@s.whatsapp.com&message="I'd like to chat with you">
+
+          <a href="https://www.facebook.com/" target="_blank">
+            <svg viewBox="0 0 602.2582857142856 1024" class="main-page-icon14">
+              <path
+                d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z">
+              </path>
+            </svg>
+          </a>
+
+          <a href="whatsapp:contact=+917523801921@s.whatsapp.com&message=" I'd like to chat with you">
             <svg viewBox="0 0 877.7142857142857 1024" class="main-page-icon16">
               <path
                 d="M562.857 556.571c9.714 0 102.857 48.571 106.857 55.429 1.143 2.857 1.143 6.286 1.143 8.571 0 14.286-4.571 30.286-9.714 43.429-13.143 32-66.286 52.571-98.857 52.571-27.429 0-84-24-108.571-35.429-81.714-37.143-132.571-100.571-181.714-173.143-21.714-32-41.143-71.429-40.571-110.857v-4.571c1.143-37.714 14.857-64.571 42.286-90.286 8.571-8 17.714-12.571 29.714-12.571 6.857 0 13.714 1.714 21.143 1.714 15.429 0 18.286 4.571 24 19.429 4 9.714 33.143 87.429 33.143 93.143 0 21.714-39.429 46.286-39.429 59.429 0 2.857 1.143 5.714 2.857 8.571 12.571 26.857 36.571 57.714 58.286 78.286 26.286 25.143 54.286 41.714 86.286 57.714 4 2.286 8 4 12.571 4 17.143 0 45.714-55.429 60.571-55.429zM446.857 859.429c197.714 0 358.857-161.143 358.857-358.857s-161.143-358.857-358.857-358.857-358.857 161.143-358.857 358.857c0 75.429 24 149.143 68.571 210.286l-45.143 133.143 138.286-44c58.286 38.286 127.429 59.429 197.143 59.429zM446.857 69.714c237.714 0 430.857 193.143 430.857 430.857s-193.143 430.857-430.857 430.857c-72.571 0-144.571-18.286-208.571-53.714l-238.286 76.571 77.714-231.429c-40.571-66.857-61.714-144-61.714-222.286 0-237.714 193.143-430.857 430.857-430.857z">
               </path>
             </svg>
           </a>
-          
+
           <a href="https://www.youtube.com/" target="_blank">
             <svg viewBox="0 0 1024 1024" class="main-page-icon18">
               <path
@@ -552,8 +603,8 @@
                 <div class="main-page-contact">
                   <span class="main-page-text26">Contact Us</span>
                   <span class="main-page-text27"><a href="mailto:pushpakviman@gmail.com">
-                    pushpakviman@gmail.com
-                  </a></span>
+                      pushpakviman@gmail.com
+                    </a></span>
                   <span class="main-page-text27"><a href="tel:+919876543210">+91 9876543210</a></span>
                 </div>
               </div>
@@ -567,6 +618,22 @@
       </div>
     </div>
   </div>
+  <script>
+
+
+
+var one = document.getElementById("cross");
+  let ok = document.getElementById('phone');
+  var navi = document.getElementById('navy');
+one.onclick=()=>{
+  ok.style.display="none";
+}
+navi.onclick=()=>{
+  ok.style.display="flex";
+  // alert('ji');
+}
+
+  </script>
 </body>
 
 </html>
