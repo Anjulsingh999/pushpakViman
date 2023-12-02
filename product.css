@@ -2067,3 +2067,16 @@
     text-align: center;
   }
 }
+
+.product-container-top-heading
+{
+  height: auto;
+  width: 100vw;
+  max-width: 100%;
+  background-color: #f0ece5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

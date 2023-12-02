@@ -53,7 +53,7 @@
 
 
 
-@media(max-width: 767px) {
+@media(max-width: 912px) {
   .navigation-links2-nav {
   
     flex-wrap: wrap;
@@ -137,13 +137,13 @@
 
 
 
-@media(max-width: 767px) {
+@media(max-width: 912px) {
   .testimonial-card11-testimonial-card {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 540px) {
   .testimonial-card11-testimonial-card {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
@@ -197,12 +197,12 @@
     height: auto;
   }
 }
-@media(max-width: 767px) {
+@media(max-width: 912px) {
   .gallery-card11-gallery-card {
     flex-direction: column;
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 540px) {
   .gallery-card11-image {
     height: 10rem;
   }
@@ -271,7 +271,7 @@
   display: none;
 }
 
-@media (max-width:720px) {
+@media (max-width:912px) {
   .main-page-mobile-menu{
     display: flex;
    
@@ -279,7 +279,7 @@
 }
 
 
-@media(max-width: 479px) {
+@media(max-width: 540px) {
   .gallery-card33-text {
     align-self: center;
     margin-bottom: var(--dl-space-space-unit);
@@ -295,6 +295,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .main-page-container01 {
   flex: 0 0 auto;
   width: 100%;
@@ -314,7 +315,7 @@
   justify-content: space-between;
 }
 .main-page-image {
-  height: 3rem;
+  height: 4rem;
 }
 .main-page-nav {
   display: flex;
@@ -344,8 +345,8 @@
   display: none;
 }
 .main-page-icon {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+  width: 3rem;
+  height: 3rem;
 }
 .main-page-mobile-menu {
   top: 0px;
@@ -373,7 +374,7 @@
   justify-content: space-between;
 }
 .main-page-image1 {
-  height: 2rem;
+  height: 7rem;
 }
 .main-page-menu-close {
   display: flex;
@@ -381,8 +382,8 @@
   justify-content: center;
 }
 .main-page-icon02 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+  width: 3rem;
+  height: 3rem;
 }
 .main-page-icon04 {
   width: var(--dl-size-size-xsmall);
@@ -806,8 +807,8 @@ transform: scale(1.5);
     padding-bottom: var(--dl-space-space-halfunit);
   }
   .main-page-image {
-    width: 90px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
   }
   .main-page-hero {
     background-image: url('https://img.freepik.com/free-photo/drone-conducting-survey-vibrant-green-farmland-precision-agriculture_157027-2862.jpg?t=st=1701286492~exp=1701290092~hmac=607bfbb9ad8b350cae3ba0aa7d6e8e0935c76c80fbec9e53a2f7d753f58a3f5a&w=1060');
@@ -846,7 +847,7 @@ transform: scale(1.5);
     height: 167px;
   }
 }
-@media(max-width: 1221px) {
+@media(max-width: 1280px) {
   .main-page-hero {
     min-height: 80vh;
   }
@@ -879,7 +880,7 @@ transform: scale(1.5);
     margin-right: var(--dl-space-space-fourunits);
   }
 }
-@media(max-width: 767px) {
+@media(max-width: 912px) {
   .main-page-header {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -949,7 +950,7 @@ transform: scale(1.5);
     margin-right: var(--dl-space-space-fourunits);
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 540px) {
   .main-page-header {
     padding: var(--dl-space-space-unit);
   }
@@ -1091,15 +1092,15 @@ transform: scale(1.5);
   display: none;
 }
 .first{
-  margin-left: -32vw;
+  margin-left: -35vw;
 }
 .second{
-  margin-left: -40vw;
+  margin-left: -41vw;
 }
 .ok{
   margin-left:-50vw ;
 }
-@media (max-width:720px) {
+@media (max-width:912px) {
   .main-page-mobile-menu{
     width: 100%;
     display: none;
