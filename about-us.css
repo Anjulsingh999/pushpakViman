@@ -1158,7 +1158,6 @@
     margin-left: var(--dl-space-space-halfunit);
     padding-top: var(--dl-space-space-unit);
     border-color: var(--dl-color-gray-black);
-    border-width: 1px;
     margin-right: var(--dl-space-space-halfunit);
     padding-left: var(--dl-space-space-unit);
     border-radius: var(--dl-radius-radius-radius2);
@@ -1185,7 +1184,7 @@
     margin-left: var(--dl-space-space-halfunit);
     padding-top: var(--dl-space-space-unit);
     border-color: var(--dl-color-gray-black);
-    border-width: 1px;
+  
     margin-right: var(--dl-space-space-halfunit);
     padding-left: var(--dl-space-space-unit);
     border-radius: var(--dl-radius-radius-radius2);
@@ -1211,7 +1210,6 @@
     margin-left: var(--dl-space-space-halfunit);
     padding-top: var(--dl-space-space-unit);
     border-color: var(--dl-color-gray-black);
-    /* border-width: 1px; */
     margin-right: var(--dl-space-space-halfunit);
     padding-left: var(--dl-space-space-unit);
     border-radius: var(--dl-radius-radius-radius2);
