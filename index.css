@@ -1093,12 +1093,16 @@ transform: scale(1.5);
 }
 .first{
   margin-left: -35vw;
+  z-index: 99;
 }
 .second{
   margin-left: -41vw;
+  z-index: 99;
 }
 .ok{
   margin-left:-50vw ;
+  z-index: 99;
+ 
 }
 @media (max-width:912px) {
   .main-page-mobile-menu{
