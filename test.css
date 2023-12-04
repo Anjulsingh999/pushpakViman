@@ -23,6 +23,7 @@ body{
   margin: 0 40px;
   overflow: hidden;
   border-radius: 25px;
+  width: auto;
 }
 .card{
   border-radius: 25px;
@@ -128,7 +129,7 @@ body{
   background-color: #4070F4;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 540px) {
   .slide-content{
     margin: 0 10px;
   }

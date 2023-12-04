@@ -912,10 +912,12 @@
 .about-us-container27 {
   flex: 0 0 auto;
   width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
+  /* border: 2px dashed rgba(120, 120, 120, 0.4); */
   height: auto;
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  justify-content: center;
+  align-items: center;
 }
 .about-us-container28 {
   flex: 0 0 auto;
@@ -1250,7 +1252,8 @@
     margin-bottom: var(--dl-space-space-fourunits);
   }
   .about-us-container27 {
-    height: var(--dl-size-size-xlarge);
+    height: auto;
+    max-width: 100%;
   }
   .about-us-social-bar {
     padding: var(--dl-space-space-twounits);
