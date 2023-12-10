@@ -334,6 +334,7 @@
   height: auto;
   display: flex;
   align-items: flex-start;
+  background-color: white;
 }
 .about-uspage1-header {
   width: 100%;
@@ -791,6 +792,7 @@
   border-style: solid;
   /* border-width: 2px; */
   justify-content: center;
+
 }
 .about-uspage1-container28 {
   flex: 0 0 auto;
@@ -837,6 +839,7 @@
   height: auto;
   display: flex;
   align-items: flex-start;
+  background: white;
 }
 .about-uspage1-separator {
   width: 100%;
@@ -851,6 +854,7 @@
   height: auto;
   display: flex;
   align-items: flex-start;
+  background-color: white;
 }
 .about-uspage1-footer {
   width: 100%;
@@ -1128,6 +1132,7 @@
   }
   .about-uspage1-container27 {
     height: auto;
+    background: white;
   }
   .about-uspage1-social-bar {
     padding: var(--dl-space-space-twounits);

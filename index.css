@@ -1053,9 +1053,9 @@ transform: scale(1.5);
 }
 
 .dropdown-item {
-  padding: 10px;
+  padding: 5px;
   display: block;
-  color: #333;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -1139,4 +1139,14 @@ transform: scale(1.5);
   font-size: 30px;
 }
 
+#product-dropdown-heading 
+{
+  font-weight: 800;
+  font-size: 40px;
+  
+}
 
+#blank_item_dropdown
+{
+  margin: 10px;
+}
