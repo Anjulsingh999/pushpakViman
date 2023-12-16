@@ -91,13 +91,14 @@
   flex-direction: column;
   justify-content: space-between;
   border-radius: 20px;
+  box-shadow: 0px 0px 0px 0.4px rgba(0, 0, 0, 0.123);
 
 }
 .testimonial-card11-testimonial-card:hover
 {
-  box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.26);
-  transition: all 0.2s ease-out;
-  transform: scale(1.06);
+  box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.155);
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.01);
 }
 
 .testimonial-card11-testimonial {
@@ -284,6 +285,11 @@
     align-self: center;
     margin-bottom: var(--dl-space-space-unit);
   }
+
+  .main-page-text05
+  {
+    font-size: 2rem;
+  }
 }
 
 .main-page-container {
@@ -345,8 +351,8 @@
   display: none;
 }
 .main-page-icon {
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
 }
 .main-page-mobile-menu {
   top: 0px;
@@ -382,8 +388,8 @@
   justify-content: center;
 }
 .main-page-icon02 {
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
 }
 .main-page-icon04 {
   width: var(--dl-size-size-xsmall);
@@ -422,13 +428,14 @@
   text-align: center;
   font-weight: 700;
   margin-bottom: 12px;
+  pointer-events: none;
 }
 
-.main-page-text:hover
+/* .main-page-text:hover
 {
   transform: scale(1.04);
   transition: all 0.3s ease-in-out;
-}
+} */
 .main-page-button {
   color: var(--dl-color-gray-white);
   transition: 0.3s;
@@ -458,7 +465,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: #f0ece5;
+  background-color: white;
 }
 .main-page-container05 {
   width: 100%;
@@ -526,11 +533,11 @@
   align-self: center;
   align-items: center;
   justify-content: center;
-  background-color: 	#f0ece5;
+  background-color: white;
 }
 .main-page-text05 {
   color: rgb(0, 0, 0);
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-style: normal;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 900;
@@ -802,12 +809,21 @@ transform: scale(1.5);
   margin-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-gray-900);
 }
+
+.main-page-separator-1 {
+  width: 100%;
+  height: 1px;
+
+  background-color: var(--dl-color-gray-900);
+}
 .main-page-text29 {
   align-self: center;
+  font-weight: 700;
+  color: #00000086;
 }
 @media(max-width: 1600px) {
   .main-page-header {
-    height: 111px;
+    height: 90px;
     align-self: flex-start;
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
@@ -820,29 +836,29 @@ transform: scale(1.5);
     background-image: url('https://img.freepik.com/free-photo/drone-conducting-survey-vibrant-green-farmland-precision-agriculture_157027-2862.jpg?t=st=1701286492~exp=1701290092~hmac=607bfbb9ad8b350cae3ba0aa7d6e8e0935c76c80fbec9e53a2f7d753f58a3f5a&w=1060');
   }
   .main-page-container04 {
-    background-color: #f3f1f5;
+    background-color: white;
   }
   .main-page-container07 {
-    background-color: #f3f1f5;
+    background-color: white;
   }
   .main-page-text04 {
     color: var(--dl-color-gray-black);
   }
   .main-page-gallery {
-    background-color: #f3f1f5;
+    background-color: white;
   }
   .main-page-container10 {
-    background-color: #f3f1f5;
+    background-color: white;
   }
   .main-page-text05 {
     color: #000000;
   }
   .main-page-gallery1 {
-    background-color: #f3f1f5;
+    background-color: white;
   }
   .main-page-social-bar {
     padding: var(--dl-space-space-twounits);
-    background-color: #f3f1f5;
+    background-color: white;
   }
   .main-page-icon16 {
     width: 16px;
@@ -964,6 +980,7 @@ transform: scale(1.5);
     padding: 16px;
   }
   .main-page-hero {
+    height: 100vh;
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
@@ -1029,6 +1046,8 @@ transform: scale(1.5);
   }
   .main-page-text29 {
     text-align: center;
+    font-weight: 700;
+  color: #00000086;
   }
 }
 .dropdown {
