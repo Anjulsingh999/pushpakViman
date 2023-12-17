@@ -91,15 +91,16 @@
   flex-direction: column;
   justify-content: space-between;
   border-radius: 20px;
-  box-shadow: 0px 0px 0px 0.4px rgba(0, 0, 0, 0.123);
+  box-shadow: 0px 0px 10px -2.5px rgba(0, 0, 0, 0.155);
 
 }
-.testimonial-card11-testimonial-card:hover
+
+/* .testimonial-card11-testimonial-card:hover
 {
   box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.155);
   transition: all 0.4s ease-in-out;
   transform: scale(1.01);
-}
+} */
 
 .testimonial-card11-testimonial {
   display: flex;
@@ -411,11 +412,13 @@
   padding: var(--dl-space-space-threeunits);
   min-height: 100vh;
   align-items: center;
+  margin-top: 90px;
   flex-direction: column;
   background-size: cover;
   justify-content: center;
   background-image: url('https://img.freepik.com/free-photo/drone-conducting-survey-vibrant-green-farmland-precision-agriculture_157027-2862.jpg?t=st=1701286492~exp=1701290092~hmac=607bfbb9ad8b350cae3ba0aa7d6e8e0935c76c80fbec9e53a2f7d753f58a3f5a&w=1060');
   background-position: center;
+  
 }
 .main-page-text {
   color: var(--dl-color-gray-white);
@@ -827,6 +830,9 @@ transform: scale(1.5);
     align-self: flex-start;
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
+    position: fixed;
+    background-color: white;
+    z-index: 100;
   }
   .main-page-image {
     width: 75px;
