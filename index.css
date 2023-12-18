@@ -41,18 +41,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width: 912px) {
   .navigation-links2-nav {
   
@@ -320,6 +308,8 @@
   padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
+  position: fixed;
+  background-color: white;
 }
 .main-page-image {
   height: 4rem;

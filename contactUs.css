@@ -17,7 +17,9 @@
   margin-left: var(--dl-space-space-twounits);
 }
 
-
+*{
+  font-family: 'Poppins', sans-serif;
+}
 
 
 
@@ -196,7 +198,7 @@
 }
 .home-text {
   font-size: 48px;
-  font-family: "Overpass";
+  font-family: 'Poppins', sans-serif;
   font-weight: 900;
   line-height: 1.22;
   margin-bottom: var(--dl-space-space-fourunits);
@@ -696,7 +698,7 @@
   flex-direction: column;
   /* padding-bottom: var(--dl-space-space-fiveunits); */
   justify-content: flex-start;
-  background-color: 	#f0ece5;
+  background-color: #199033	;
   max-width: 100%;
 }
 .home-text39 {
@@ -723,14 +725,14 @@
 
 .home-faq:hover
 {
-  transform: scale(1.03);
-	transition: all 0.5s ease-in-out;
+  transform: scale(1.01);
+	transition: all 0.4s ease-in-out;
 }
 .home-question-container {
   width: 100%;
   align-self: center;
   font-style: normal;
-  font-family: Open Sans;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   padding-top: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-fourunits);
@@ -740,19 +742,21 @@
   background-color: var(--dl-color-gray-900);
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  color: black;
+  background-color:	#C1F2B0 ;
 }
 .home-question {
   font-size: 18px;
   font-style: normal;
-  font-family: "Open Sans";
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
 .home-answer-container {
   display: flex;
   padding: var(--dl-space-space-fourunits);
   font-style: normal;
-  font-family: Open Sans;
-  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: column;
   border-bottom-left-radius: 0;
@@ -774,15 +778,15 @@
 
 .home-faq1:hover
 {
-  transform: scale(1.03);
-	transition: all 0.5s ease-in-out;
+  transform: scale(1.01);
+	transition: all 0.4s ease-in-out;
 }
 
 .home-question-container1 {
   width: 100%;
   align-self: center;
   font-style: normal;
-  font-family: Open Sans;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   padding-top: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-fourunits);
@@ -792,18 +796,20 @@
   background-color: var(--dl-color-gray-900);
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  color: black;
+  background-color:	#C1F2B0 ;
 }
 .home-question1 {
   font-size: 18px;
   font-style: normal;
-  font-family: Open Sans;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
 .home-answer-container1 {
   display: flex;
   padding: var(--dl-space-space-fourunits);
   font-style: normal;
-  font-family: Open Sans;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: column;
@@ -826,35 +832,36 @@
 
 .home-faq2:hover
 {
-  transform: scale(1.03);
-	transition: all 0.5s ease-in-out;
+  transform: scale(1.01);
+	transition: all 0.4s ease-in-out;
 }
 .home-question-container2 {
   width: 100%;
   align-self: center;
   font-style: normal;
-  font-family: Open Sans;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   padding-top: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-fourunits);
   border-radius: var(--dl-radius-radius-radius8);
   padding-right: var(--dl-space-space-fourunits);
   padding-bottom: var(--dl-space-space-doubleunit);
-  background-color: var(--dl-color-gray-900);
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  color: black;
+  background-color:	#C1F2B0 ;
 }
 .home-question2 {
   font-size: 18px;
   font-style: normal;
-  font-family: Open Sans;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
 .home-answer-container2 {
   display: flex;
   padding: var(--dl-space-space-fourunits);
   font-style: normal;
-  font-family: Open Sans;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: column;
@@ -1047,6 +1054,8 @@
 }
 .home-text63 {
   align-self: center;
+  font-weight: 700;
+color: #00000086;
 }
 .home-text65 {
   text-align: left;
@@ -1275,6 +1284,8 @@
   }
   .home-text63 {
     text-align: center;
+    font-weight: 700;
+color: #00000086;
   }
 }
 
