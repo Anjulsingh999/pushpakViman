@@ -103,6 +103,8 @@
   object-fit: cover;
   border-radius: 10px;
 }
+
+
 .testimonial-card11-text {
   font-size: 1.5rem;
   font-style: normal;
@@ -116,6 +118,13 @@
   height: 188px;
   object-fit: cover;
   border-radius: 10px;
+}
+
+@media(max-width: 380px){
+  .testimonial-card11-image {
+    width: 280px;
+    height: 200px;
+  }
 }
 .testimonial-card11-text {
   font-size: 1.5rem;
@@ -1134,6 +1143,8 @@ transform: scale(1.5);
     
   }
 }
+
+
 .second{
   margin-left: -34vw;
   z-index: 99;

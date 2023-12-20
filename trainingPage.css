@@ -14,7 +14,7 @@
 .blog-post-card3-container {
   flex: 1;
   display: flex;
-  padding: var(--dl-space-space-twounits);
+  padding: 20px;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
@@ -256,9 +256,9 @@
   flex-wrap: wrap;
   align-items: center;
   /* padding-top: var(--dl-space-space-twounits); */
-  padding-left: var(--dl-space-space-twounits);
+  /* padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-twounits); */
   justify-content: center;
 }
 .training-page-container05 {

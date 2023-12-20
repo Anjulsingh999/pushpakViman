@@ -469,7 +469,7 @@
   width: 80%;
   font-size: 4rem;
   text-align: center;
-  font-family: "Arial Black";
+  font-family:'Poppins', sans-serif;
   line-height: 1.6;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
