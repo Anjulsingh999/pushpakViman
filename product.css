@@ -148,6 +148,21 @@
   flex-direction: row;
   justify-content: center;
 }
+
+/* #blog-post-card3-blog-post-card_left
+{
+  display: flex;
+  flex-direction: row;
+} */
+
+#blog-post-card3-blog-post-card_right
+{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+
 .blog-post-card3-image {
   width: 500px;
   object-fit: cover;

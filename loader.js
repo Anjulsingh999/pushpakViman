@@ -6,5 +6,5 @@
         document.getElementById("loader-wrapper").style.display = "none";
         // Show the content
         document.querySelector(".content").style.display = "block";
-    }, 4000); // Adjust the timeout duration based on your actual content loading time
+    }, 1500); // Adjust the timeout duration based on your actual content loading time
 });
