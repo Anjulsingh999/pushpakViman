@@ -1,0 +1,217 @@
+ /* Style to hide the card and create an overlay */
+ #overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.505);
+    /* Semi-transparent black overlay */
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+  }
+
+  #card {
+    display: none;
+    background: #fff;
+    /* padding: 20px; */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+  }
+
+  img {
+    width: 100%;
+  }
+
+
+
+
+  .popup-container {
+    height: auto;
+    width: 80vw;
+
+  }
+
+  .contant-container {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+  }
+
+ 
+
+
+
+
+  /* @media (max-width:812px) {
+    .contant-container {
+      text-align: center;
+      font-size: 55px;
+      font-weight: 900;
+      margin: 50px 0px;
+    }
+  } */
+
+
+  @media (max-width:360px) {
+    .contant-container {
+      text-align: center;
+      font-size: 22px;
+      font-weight: 900;
+      margin: 50px 0px;
+    }
+  }
+
+
+  .contant-container1 p {
+    text-align: start;
+    margin: 20px 100px;
+    line-height: 40px;
+    font-size: 35px;
+    /* font-weight: 700; */
+    font-family: sans-serif;
+  }
+
+ 
+
+
+
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .contant-container2 {
+    margin: 20px 100px;
+  }
+
+  .contant-container2 h2 {
+    font-size: 50px;
+  }
+
+  .contant-container2 ul {
+    font-size: 45px;
+  }
+
+  .contant-container3 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 80px;
+  }
+
+  .contant-container3 button {
+    width: 180px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    /* margin-bottom: 30px; */
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .contant-container4 {
+    position: absolute;
+    top: 10px;
+    margin: 20px;
+  }
+
+  button {
+    /* border-radius: 50%; */
+    position: fixed;
+    /* padding: 15px; */
+    background: rgba(255, 255, 255, 0);
+    border: 0px solid rgba(0, 0, 0, 0);
+  }
+
+  .contant-container4 button img {
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    z-index: 100;
+  }
+
+  #btn {
+    height: 40px;
+    width: auto;
+    position: absolute;
+    top: -34vh;
+    left: 35vw;
+  }
+
+
+
+  .anjul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+  }
+
+
+  @media (max-width:540px) {
+    img {
+      width: 100%;
+      height: 220px;
+    }
+
+    .contant-container1 p {
+      text-align: start;
+      margin: 20px 20px;
+      line-height: 23px;
+      font-size: 21px;
+      /* font-weight: 700; */
+      font-family: sans-serif;
+
+    }
+
+    #btn {
+      top: -36vh;
+      left: 28vw;
+    }
+  }
+
+  
+  @media (max-width:912px) {
+    .contant-container {
+      font-size: 52px;
+    }
+
+    .contant-container1 p {
+    font-size: 30px;
+    margin: 20px 28px;
+  }
+
+  #btn {
+      top: -34vh;
+    left: 31vw;
+    }
+
+  }
+
+
+  @media (max-width:1280px) {
+    img {
+      width: 100%;
+      height: 401px;
+    }
+
+    /* .contant-container {
+      font-size: 62px;
+    } */
+
+    #btn {
+      top: -34vh;
+    left: 33vw;
+    }
+
+
+  }

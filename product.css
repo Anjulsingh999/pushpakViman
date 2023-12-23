@@ -206,17 +206,18 @@
  
 }
 .blog-post-card3-button {
-  color: #ffffff;
-  border-radius: 6px;
-  background-color: #060606;
+  color: black;
+  border-radius: 35px;
+  /* background-color: #060606; */
+  margin-top: 30px;
 }
 
 
 .blog-post-card3-button:hover
 {
-  transform: scale(1.06);
-	transition: all 0.4s ease-in-out;
-  background-color:rgb(33, 31, 31) ;
+  background-color: #000000;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 
 
