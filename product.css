@@ -206,14 +206,32 @@
  
 }
 .blog-post-card3-button {
-  color: black;
+  color: rgb(255, 255, 255);
   border-radius: 35px;
-  /* background-color: #060606; */
+  background-color: #060606;
   margin-top: 30px;
+  font-weight: 700;
 }
 
 
 .blog-post-card3-button:hover
+{
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.blog-post-card3-button1 {
+  color: rgb(0, 0, 0);
+  border-radius: 35px;
+  background-color: white;
+  margin-top: 30px;
+  font-weight: 700;
+  
+}
+
+
+.blog-post-card3-button1:hover
 {
   background-color: #000000;
   color: #fff;
@@ -232,11 +250,13 @@
 
   }
   .blog-post-card3-button {
-    color: #ffffff;
+    
     font-style: normal;
-    font-weight: 800;
-    background-color: #080707;
+    font-weight: 900;
+
   }
+
+ 
   .blog-post-card3-root-class-name1 {
     align-self: flex-start;
   }
@@ -623,12 +643,11 @@
   box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.137);
 }
 
-#box_hover_effect:hover
+/* #box_hover_effect:hover
 {
   transform: scale(1.02);
   transition: all 0.5s ease-in-out;
-  
-}
+} */
 
 .product-container07 {
   display: flex;
@@ -2091,4 +2110,12 @@ color: #00000086;
 {
   transform: scale(1.5);
   transition: all 0.4s ease-in-out;
+}
+
+.group_btn
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
