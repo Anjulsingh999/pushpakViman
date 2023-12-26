@@ -40,7 +40,6 @@
 
 
 
-
     .popup-container {
       height: auto;
       width: 80vw;
@@ -218,8 +217,12 @@
         top: -34vh;
       left: 33vw;
       }
+    }
 
-
+    .pop-up-card-container
+    {
+      height: auto;
+      width: 100%;
     }
   </style>
 
@@ -232,8 +235,9 @@
   <!-- Button that will trigger the pop-up card to open -->
   <button id="toggleButton" class="anjul">Open Pop-up Card</button>
 
-  <!-- Overlay and Card for pop-up -->
-  <div id="overlay">
+ <div class="pop-up-card-container">
+   <!-- Overlay and Card for pop-up -->
+   <div id="overlay">
     <div id="card">
       <!-- Card content goes here -->
       <div class="popup-container">
@@ -290,6 +294,7 @@
     </div>
     <button onclick="closeCard()"><img id="btn" src="cross.png" alt=""></button>
   </div>
+ </div>
 
   <script>
 

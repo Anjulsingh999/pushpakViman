@@ -2119,3 +2119,19 @@ color: #00000086;
   align-items: center;
   gap: 15px;
 }
+
+.top-icon
+{
+  position: relative;
+
+}
+
+.top-icon img
+{ position: fixed;
+  height: 55px;
+  width: 55px;
+  bottom: 35px;
+  right: 35px;
+  z-index: 10000;
+}
+
