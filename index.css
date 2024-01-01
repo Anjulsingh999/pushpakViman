@@ -321,7 +321,7 @@
   position: fixed;
   background-color: white;
   box-shadow: 0px 0px 13px -4px #0000002e;
-  z-index: 100;
+  z-index: 1000;
   height: 100px;
 }
 .main-page-image {
@@ -839,7 +839,7 @@ transform: scale(1.5);
     padding-bottom: var(--dl-space-space-halfunit);
     position: fixed;
     background-color: white;
-    z-index: 100;
+    z-index: 1000;
     box-shadow: 0px 0px 13px -4px #0000002e;
   }
   .main-page-image {
