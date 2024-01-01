@@ -1129,9 +1129,9 @@ transform: scale(1.5);
 }
 .mid{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   text-align: start;
-
+  padding: 0px 55px;
 }
 .main-page-mobile-menu{
   display: none;
@@ -1222,7 +1222,7 @@ transform: scale(1.5);
 }
 
 
-.top-icon
+/* .top-icon
 {
   position: relative;
 
@@ -1235,7 +1235,7 @@ transform: scale(1.5);
   bottom: 35px;
   right: 35px;
   z-index: 10000;
-}
+} */
 
 /* width */
 ::-webkit-scrollbar {
