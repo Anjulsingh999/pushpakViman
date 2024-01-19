@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .carousel {
+      display: flex;
+      overflow: hidden;
+      width: 100%;
+      position: relative;
+    }
+
+    .carousel-container {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-item {
+      min-width: 100%;
+      box-sizing: border-box;
+    }
+
+    .carousel-item img {
+      width: 100%;
+      height: auto;
+    }
+
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 24px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .arrow.left {
+      left: 10px;
+    }
+
+    .arrow.right {
+      right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="carousel" onmouseover="stopCarousel()" onmouseout="startCarousel()">
+  <div class="carousel-container" id="carouselContainer" onmouseover="stopCarousel()" onmouseout="startCarousel()">
+    <div class="carousel-item">
+      <img src="main_page/training_image.jpg" alt="Training Image 1">
+    </div>
+    <div class="carousel-item">
+      <img src="main_page/training_image.jpg" alt="Training Image 2">
+    </div>
+    <div class="carousel-item">
+      <img src="main_page/training_image.jpg" alt="Training Image 3">
+    </div>
+    <!-- Add more slides as needed -->
+  </div>
+  <div class="arrow left" onclick="prevSlide()">&#10094;</div>
+  <div class="arrow right" onclick="nextSlide()">&#10095;</div>
+</div>
+
+<script>
+  let currentIndex = 0;
+  const container = document.getElementById('carouselContainer');
+  const items = document.querySelectorAll('.carousel-item');
+  const totalItems = items.length;
+  let isAnimating = false;
+
+  function startCarousel() {
+    requestAnimationFrame(animateCarousel);
+  }
+
+  function stopCarousel() {
+    isAnimating = false;
+  }
+
+  function animateCarousel() {
+    isAnimating = true;
+    nextSlide();
+    setTimeout(() => {
+      if (isAnimating) {
+        requestAnimationFrame(animateCarousel);
+      }
+    }, 3000); // Change 3000 to the desired interval in milliseconds (e.g., 5000 for 5 seconds)
+  }
+
+  function nextSlide() {
+    if (currentIndex < totalItems - 1) {
+      currentIndex++;
+    } else {
+      currentIndex = 0;
+    }
+    updateCarousel();
+  }
+
+  function prevSlide() {
+    if (currentIndex > 0) {
+      currentIndex--;
+    } else {
+      currentIndex = totalItems - 1;
+    }
+    updateCarousel();
+  }
+
+  function updateCarousel() {
+    const newPosition = -currentIndex * 100 + '%';
+    container.style.transform = 'translateX(' + newPosition + ')';
+  }
+
+  // Start the carousel automatically when the page loads
+  startCarousel();
+</script>
+
+</body>
+</html>

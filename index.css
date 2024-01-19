@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  line-height: 6vh;
+  line-height: 5vh;
 }
 .col{
   flex-direction: column;
@@ -1081,15 +1081,15 @@ transform: scale(1.5);
 
 
 .dropdown-item {
-  /* padding: 5px; */
-  display: block;
+  /* padding: 10px; */
+  /* display: block; */
   color: #000000;
   text-decoration: none;
   font-size: 17px;
 }
 
 .search-box {
-  padding: 10px;
+  /* padding: 10px; */
   border: 1px solid #ddd;
   width: 100%;
   box-sizing: border-box;
@@ -1099,12 +1099,14 @@ transform: scale(1.5);
   display: block;
 }
 
+
+
 .dropdown-content {
    
      text-align: center;
      margin: auto;
      position: fixed;
-     width: 85vw;
+     width: 70vw;
      left: 0;
      margin-left: -35rem;
      left: 0;
@@ -1117,14 +1119,15 @@ transform: scale(1.5);
      background-color: #ffffff;
      box-shadow: 0 8px 16px 6px rgba(0, 0, 0, 0.205);
      z-index: 1;
-
 }
+
+
 
 
 .ok{
 
   border-radius: 25px;
-   margin-left:-41vw ;
+   margin-left:-35vw ;
   z-index: 99;
 }
 .mid{
@@ -1137,7 +1140,13 @@ transform: scale(1.5);
   display: none;
 }
 .first{
-  margin-left: -26vw;
+  margin-left: -18vw;
+  z-index: 99;
+  border-radius: 25px;
+}
+
+.second{
+  margin-left: -25vw;
   z-index: 99;
   border-radius: 25px;
 }
@@ -1149,14 +1158,60 @@ transform: scale(1.5);
     padding-left: 40px;
     
   }
+
+  .dropdown-item
+  {
+    font-size: 13px;
+  }
+
+  .navigation-links2-nav
+  {
+    line-height: 3.5vh;
+  }
+  #product-dropdown-heading
+  {
+    font-weight: 600;
+    font-size: 21px;
+  }
+}
+
+@media (max-width:1122px)
+{
+  .first{
+    margin-left: -20vw;
+    padding-left: 0px;
+  }
+  .dropdown-content
+  {
+    width: 85vw;
+  }
+
+  .dropdown-item
+  {
+    font-size: 13px;
+  }
+
+  .navigation-links2-nav
+  {
+    line-height: 3.5vh;
+  }
+  .second{
+    margin-left: -31vw;
+    
+  }
+
+  .ok{
+     margin-left:-42vw ;
+  }
+  #product-dropdown-heading
+  {
+    font-weight: 600;
+    font-size: 19px;
+  }
 }
 
 
-.second{
-  margin-left: -34vw;
-  z-index: 99;
-  border-radius: 25px;
-}
+
 
 @media (max-width:912px) {
   .main-page-mobile-menu{
@@ -1171,6 +1226,8 @@ transform: scale(1.5);
     text-align: center;
     margin: auto;
   }
+
+  
 }
 
 
@@ -1184,14 +1241,14 @@ transform: scale(1.5);
 
 .heading_dropdown
 {
-  font-weight: 900;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 25px;
 }
 
 #product-dropdown-heading 
 {
-  font-weight: 800;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 25px;
   
 }
 
@@ -1221,6 +1278,12 @@ transform: scale(1.5);
   color: #199033;
 }
 
+.training_subtitle
+{
+  font-size: 8px;
+  line-height: 2px;
+
+}
 
 /* .top-icon
 {
