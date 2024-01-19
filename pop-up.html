@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Style to hide the card and create an overlay */
+    #overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.505);
+      /* Semi-transparent black overlay */
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    #card {
+      display: none;
+      background: #fff;
+      /* padding: 20px; */
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      max-width: 80%;
+      max-height: 80%;
+      overflow-y: auto;
+      overflow-x: hidden;
+      position: relative;
+      transition: all 0.5s ease-in-out;
+    }
+
+    img {
+      width: 100%;
+    }
+
+
+
+    .popup-container {
+      height: auto;
+      width: 80vw;
+
+    }
+
+    .contant-container {
+      text-align: center;
+      font-size: 70px;
+      font-weight: 900;
+    }
+
+   
+
+
+
+
+    /* @media (max-width:812px) {
+      .contant-container {
+        text-align: center;
+        font-size: 55px;
+        font-weight: 900;
+        margin: 50px 0px;
+      }
+    } */
+
+
+    @media (max-width:360px) {
+      .contant-container {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 900;
+        margin: 50px 0px;
+      }
+    }
+
+
+    .contant-container1 p {
+      text-align: start;
+      margin: 20px 100px;
+      line-height: 40px;
+      font-size: 35px;
+      /* font-weight: 700; */
+      font-family: sans-serif;
+    }
+
+   
+
+
+
+    ::-webkit-scrollbar {
+      width: 0px;
+    }
+
+    .contant-container2 {
+      margin: 20px 100px;
+    }
+
+    .contant-container2 h2 {
+      font-size: 50px;
+    }
+
+    .contant-container2 ul {
+      font-size: 45px;
+    }
+
+    .contant-container3 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 80px;
+    }
+
+    .contant-container3 button {
+      width: 180px;
+      height: 50px;
+      border: 1px solid black;
+      border-radius: 20px;
+      /* margin-bottom: 30px; */
+      text-align: center;
+      font-size: 19px;
+    }
+
+    .contant-container4 {
+      position: absolute;
+      top: 10px;
+      margin: 20px;
+    }
+
+    button {
+      /* border-radius: 50%; */
+      position: fixed;
+      /* padding: 15px; */
+      background: rgba(255, 255, 255, 0);
+      border: 0px solid rgba(0, 0, 0, 0);
+    }
+
+    .contant-container4 button img {
+      position: fixed;
+      width: 15px;
+      height: 15px;
+      z-index: 100;
+    }
+
+    #btn {
+      height: 40px;
+      width: auto;
+      position: absolute;
+      top: -34vh;
+      left: 35vw;
+    }
+
+
+
+    .anjul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 100px;
+    }
+
+
+    @media (max-width:540px) {
+      img {
+        width: 100%;
+        height: 220px;
+      }
+
+      .contant-container1 p {
+        text-align: start;
+        margin: 20px 20px;
+        line-height: 23px;
+        font-size: 21px;
+        /* font-weight: 700; */
+        font-family: sans-serif;
+
+      }
+
+      #btn {
+        top: -36vh;
+        left: 28vw;
+      }
+    }
+
+    
+    @media (max-width:912px) {
+      .contant-container {
+        font-size: 52px;
+      }
+
+      .contant-container1 p {
+      font-size: 30px;
+      margin: 20px 28px;
+    }
+
+    #btn {
+        top: -34vh;
+      left: 31vw;
+      }
+
+    }
+
+
+    @media (max-width:1280px) {
+      img {
+        width: 100%;
+        height: 401px;
+      }
+
+      /* .contant-container {
+        font-size: 62px;
+      } */
+
+      #btn {
+        top: -34vh;
+      left: 33vw;
+      }
+    }
+
+    .pop-up-card-container
+    {
+      height: auto;
+      width: 100%;
+    }
+  </style>
+
+
+  <title>Pop-up Card</title>
+</head>
+
+<body>
+
+  <!-- Button that will trigger the pop-up card to open -->
+  <button id="toggleButton" class="anjul">Open Pop-up Card</button>
+
+ <div class="pop-up-card-container">
+   <!-- Overlay and Card for pop-up -->
+   <div id="overlay">
+    <div id="card">
+      <!-- Card content goes here -->
+      <div class="popup-container">
+
+        <div class="img-container">
+          <img
+            src="https://www.garudaaerospace.com/public/assets/service/modal/a1I7EE7k5BeRsj8ZDrmNZEIcQfB7GrM45S1Pyfsj.png"
+            alt="">
+        </div>
+
+        <div class="contant-container">
+          <P>Warehouse Management</P>
+        </div>
+
+        <div class="contant-container1">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem voluptates aliquid architecto ipsa
+            nesciunt eum. Odio veniam aliquid doloribus iusto excepturi voluptatibus totam quia, veritatis eos eligendi,
+            labore amet! Iusto.
+
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, quod temporibus? Quis maxime
+            voluptatibus adipisci facilis suscipit libero labore mollitia maiores fugiat possimus perferendis nemo amet
+            eaque quas distinctio ab culpa accusamus quod odio minus excepturi, placeat iusto autem. Nam reiciendis quae
+            omnis velit. Aspernatur enim atque officia aperiam amet?
+
+          </p>
+        </div>
+
+        <div class="contant-container2">
+
+          <h2>Advantages</h2>
+          <ul>
+            <li>Helo</li>
+            <li>Helo</li>
+            <li>Helo</li>
+            <li>Helo</li>
+            <li>Helo</li>
+          </ul>
+        </div>
+
+
+        <div class="contant-container3">
+
+          <button>Enquiary </button>
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+    </div>
+    <button onclick="closeCard()"><img id="btn" src="cross.png" alt=""></button>
+  </div>
+ </div>
+
+  <script>
+
+    // JavaScript to handle the button click event
+    var flag = true;
+    document.getElementById('toggleButton').addEventListener('click', function () {
+      var overlay = document.getElementById('overlay');
+      var card = document.getElementById('card');
+
+      // Toggle the overlay and card's display property
+      overlay.style.display = 'flex';
+      card.style.display = 'block';
+      if (flag) {
+
+        card.style.transform = 'scale(.5)';
+
+        flag = false;
+      }
+      // Trigger reflow and start fade in animation
+      overlay.offsetHeight; // eslint-disable-line no-unused-expressions
+      card.offsetHeight;    // eslint-disable-line no-unused-expressions
+      card.style.opacity = 1;
+      card.style.transition = '.55s ease';
+      card.style.transform = 'scale(1)';
+    });
+
+    // JavaScript to close the pop-up card
+    function closeCard() {
+      var overlay = document.getElementById('overlay');
+      var card = document.getElementById('card');
+
+      card.style.opacity = 0;
+      card.style.transform = 'scale(.5)';
+      card.style.transition = '.55s ease';
+
+      setTimeout(function () {
+        overlay.style.display = 'none';
+        card.style.display = 'none';
+      }, 300); // Wait for the animation to complete
+    }
+
+  </script>
+
+</body>
+
+</html>
