@@ -3,122 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
   <style>
-    body {
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-    }
+    details {
+  position: relative;
+}
+details summary {
+  list-style: none;
+  display: inline-flex;
+  gap: 1em;
 
-    .carousel {
-      display: flex;
-      overflow: hidden;
-      width: 100%;
-      position: relative;
-    }
-
-    .carousel-container {
-      display: flex;
-      transition: transform 0.5s ease-in-out;
-    }
-
-    .carousel-item {
-      min-width: 100%;
-      box-sizing: border-box;
-    }
-
-    .carousel-item img {
-      width: 100%;
-      height: auto;
-    }
-
-    .arrow {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 24px;
-      cursor: pointer;
-      user-select: none;
-    }
-
-    .arrow.left {
-      left: 10px;
-    }
-
-    .arrow.right {
-      right: 10px;
-    }
+}
+details summary::after {
+  border-style: solid;
+  border-width: 0.15em 0.15em 0 0;
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  left: 0;
+  position: relative;
+  vertical-align: top;
+  width: 0.5em;
+  top: 0;
+  transform: rotate(135deg);
+}
+details ul,
+details ol {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+details ul li,
+details ol li {
+  padding: 0.5em 1em;
+}
+details[open] summary::after {
+  top: 0.25em;
+  transform: rotate(-45deg);
+}
+details[open] ul,
+details[open] ol {
+  display: inline-block;
+}
   </style>
 </head>
 <body>
-
-<div class="carousel" onmouseover="stopCarousel()" onmouseout="startCarousel()">
-  <div class="carousel-container" id="carouselContainer" onmouseover="stopCarousel()" onmouseout="startCarousel()">
-    <div class="carousel-item">
-      <img src="main_page/training_image.jpg" alt="Training Image 1">
-    </div>
-    <div class="carousel-item">
-      <img src="main_page/training_image.jpg" alt="Training Image 2">
-    </div>
-    <div class="carousel-item">
-      <img src="main_page/training_image.jpg" alt="Training Image 3">
-    </div>
-    <!-- Add more slides as needed -->
-  </div>
-  <div class="arrow left" onclick="prevSlide()">&#10094;</div>
-  <div class="arrow right" onclick="nextSlide()">&#10095;</div>
-</div>
-
-<script>
-  let currentIndex = 0;
-  const container = document.getElementById('carouselContainer');
-  const items = document.querySelectorAll('.carousel-item');
-  const totalItems = items.length;
-  let isAnimating = false;
-
-  function startCarousel() {
-    requestAnimationFrame(animateCarousel);
-  }
-
-  function stopCarousel() {
-    isAnimating = false;
-  }
-
-  function animateCarousel() {
-    isAnimating = true;
-    nextSlide();
-    setTimeout(() => {
-      if (isAnimating) {
-        requestAnimationFrame(animateCarousel);
-      }
-    }, 3000); // Change 3000 to the desired interval in milliseconds (e.g., 5000 for 5 seconds)
-  }
-
-  function nextSlide() {
-    if (currentIndex < totalItems - 1) {
-      currentIndex++;
-    } else {
-      currentIndex = 0;
-    }
-    updateCarousel();
-  }
-
-  function prevSlide() {
-    if (currentIndex > 0) {
-      currentIndex--;
-    } else {
-      currentIndex = totalItems - 1;
-    }
-    updateCarousel();
-  }
-
-  function updateCarousel() {
-    const newPosition = -currentIndex * 100 + '%';
-    container.style.transform = 'translateX(' + newPosition + ')';
-  }
-
-  // Start the carousel automatically when the page loads
-  startCarousel();
-</script>
-
+  <details>
+    <summary>Dropdown</summary>
+    <ul>
+        <li>Dropdown item 1</li>
+        <li>Dropdown item 2</li>
+        <li>Dropdown item 3</li>
+        <li>Dropdown item 4</li>
+    </ul>
+</details>
 </body>
 </html>

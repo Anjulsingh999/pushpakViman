@@ -29,7 +29,7 @@ body {
   .arrow {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateZ(-50%);
     font-size: 24px;
     cursor: pointer;
     user-select: none;

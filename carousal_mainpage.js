@@ -5,7 +5,7 @@ let currentIndex = 0;
   let intervalId;
 
   function startCarousel() {
-    intervalId = setInterval(nextSlide, 1000); // Change 3000 to the desired interval in milliseconds (e.g., 5000 for 5 seconds)
+    intervalId = setInterval(nextSlide, 5000); // Change 3000 to the desired interval in milliseconds (e.g., 5000 for 5 seconds)
   }
 
   function stopCarousel() {
