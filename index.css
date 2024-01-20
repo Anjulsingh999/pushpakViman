@@ -382,6 +382,7 @@
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: right;
+  margin-top: 20px;
 }
 .main-page-image1 {
   height: 7rem;
