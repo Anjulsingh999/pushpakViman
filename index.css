@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  line-height: 5vh;
+  line-height: 6vh;
 }
 .col{
   flex-direction: column;
@@ -412,14 +412,14 @@
 .main-page-hero {
   width: 100%;
   display: flex;
-  /* padding: var(--dl-space-space-threeunits); */
+  padding: var(--dl-space-space-threeunits);
   min-height: 100vh;
   align-items: center;
   /* margin-top: 90px; */
   flex-direction: column;
-  /* background-size: cover; */
+  background-size: cover;
   justify-content: center;
-  /* background-image: url('https://img.freepik.com/free-photo/drone-conducting-survey-vibrant-green-farmland-precision-agriculture_157027-2862.jpg?t=st=1701286492~exp=1701290092~hmac=607bfbb9ad8b350cae3ba0aa7d6e8e0935c76c80fbec9e53a2f7d753f58a3f5a&w=1060'); */
+  background-image: url('https://img.freepik.com/free-photo/drone-conducting-survey-vibrant-green-farmland-precision-agriculture_157027-2862.jpg?t=st=1701286492~exp=1701290092~hmac=607bfbb9ad8b350cae3ba0aa7d6e8e0935c76c80fbec9e53a2f7d753f58a3f5a&w=1060');
   /* background-image: url(https://www.vecteezy.com/video/5886594-agriculture-drone-flying-and-spraying-fertilizer-and-pesticide-over-farmland-high-technology-innovations-and-smart-farming); */
   
   background-position: center;
@@ -847,7 +847,7 @@ transform: scale(1.5);
     height: 75px;
   }
   .main-page-hero {
-    /* background-image: url('https://img.freepik.com/free-photo/drone-conducting-survey-vibrant-green-farmland-precision-agriculture_157027-2862.jpg?t=st=1701286492~exp=1701290092~hmac=607bfbb9ad8b350cae3ba0aa7d6e8e0935c76c80fbec9e53a2f7d753f58a3f5a&w=1060'); */
+    background-image: url('https://img.freepik.com/free-photo/drone-conducting-survey-vibrant-green-farmland-precision-agriculture_157027-2862.jpg?t=st=1701286492~exp=1701290092~hmac=607bfbb9ad8b350cae3ba0aa7d6e8e0935c76c80fbec9e53a2f7d753f58a3f5a&w=1060');
     /* background-image: url(video.gif); */
   }
   .main-page-container04 {
@@ -934,8 +934,8 @@ transform: scale(1.5);
     justify-content: center;
   }
   .main-page-hero {
-    /* padding-left: var(--dl-space-space-twounits); */
-    /* padding-right: var(--dl-space-space-twounits); */
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
   }
   .main-page-container04 {
     padding-left:var(--dl-space-space-twounits);
@@ -996,10 +996,10 @@ transform: scale(1.5);
   }
   .main-page-hero {
     height: 50vh;
-    /* padding-top: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits); */
+    padding-bottom: var(--dl-space-space-twounits);
   }
   .main-page-text {
     width: auto;
@@ -1291,7 +1291,7 @@ ul{
 
 .training_subtitle
 {
-  font-size: 8px;
+  font-size: 10px;
   line-height: 2px;
 
 }

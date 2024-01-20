@@ -812,13 +812,21 @@
   border-radius: 50%;
 }
 
+.testimonial-card121-testimonial-profile img:hover
+{
+  border-radius: 0%;
+  transition: all 0.5s ease-in-out;
+}
+
 .testimonial-card121-text1-sub
 {
   margin-bottom: 30px;
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
+  
 }
+
 .about-uspage1-container27 {
   flex: 0 0 auto;
   width: 100%;
