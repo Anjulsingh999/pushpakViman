@@ -995,7 +995,7 @@ transform: scale(1.5);
     padding: 16px;
   }
   .main-page-hero {
-    height: 50vh;
+    height: 100vh;
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
