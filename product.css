@@ -132,11 +132,16 @@
 
 
 .blog-post-card3-image {
-  width: 500px;
+  width: 390px;
   object-fit: cover;
   /* border-radius: 10px 0px 0px 10px; */
   border-radius: 60px;
   padding: 30px;
+}
+
+.blog-post-card3-text-subclass1
+{
+  font-weight: 800;
 }
 
 /* .blog-post-card3-image:hover

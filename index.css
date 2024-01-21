@@ -381,8 +381,8 @@
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
-  justify-content: right;
-  margin-top: 20px;
+  justify-content: space-between;
+  margin-top: -9px;
 }
 .main-page-image1 {
   height: 7rem;
@@ -1222,15 +1222,20 @@ ul{
   }
 }
 
+.hamburger_logo img
+{
+  height: 75px;
+  width: 75px;
+}
 
 
 
 @media (max-width:912px) {
   .main-page-mobile-menu{
-    width: 65%;
+    width: 100%;
     display: none;
     text-align: center;
-    right: -34%;
+    right: 0;
     position: fixed;
     margin: auto;
   }
