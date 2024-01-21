@@ -4,11 +4,14 @@
   max-width: var(--dl-size-size-maxwidth);
   flex-direction: row;
   justify-content: center;
+  box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 0.097);
+  border-radius: 34px;
 }
 .blog-post-card3-image {
-  width: 500px;
+  width: 370px;
   object-fit: cover;
-  border-radius: 15px;
+  border-radius: 53px;
+  padding: 25px;
 }
 .blog-post-card3-container {
   flex: 1;
@@ -32,17 +35,49 @@
   color: var(--dl-color-gray-500);
   margin-bottom: var(--dl-space-space-twounits);
 }
+
+
 .blog-post-card3-button {
-  color: #ffffff;
-  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  border-radius: 35px;
   background-color: #060606;
+  margin-top: 30px;
+  font-weight: 700;
 }
 
 
+.blog-post-card3-button:hover
+{
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.blog-post-card3-button1 {
+  color: rgb(0, 0, 0);
+  border-radius: 35px;
+  background-color: white;
+  margin-top: 30px;
+  font-weight: 700;
+  margin-left: 20px;
+  
+}
+
+
+.blog-post-card3-button1:hover
+{
+  background-color: #000000;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.post-card-reverse {
+  flex-direction: row-reverse;
+}
 @media(max-width: 1280px) {
   .blog-post-card3-image {
     width: 50%;
-    border-radius: 15px;
+    border-radius: 53px;
   }
   .blog-post-card3-button {
     color: #ffffff;
@@ -58,7 +93,8 @@
   }
   .blog-post-card3-image {
     width: 100%;
-    border-radius: 15px;
+    border-radius: 55px;
+    padding: 25px;
   }
   .blog-post-card3-container {
     width: 100%;
@@ -288,6 +324,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
   justify-content: space-between;
+  /* border: 1px solid black; */
 }
 .service-page-container07 {
   display: flex;
@@ -296,6 +333,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
   justify-content: space-between;
+  /* border: 1px solid black; */
 }
 .service-page-container08 {
   display: flex;
@@ -304,6 +342,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
   justify-content: space-between;
+  
 }
 .service-page-container09 {
   flex: 0 0 auto;

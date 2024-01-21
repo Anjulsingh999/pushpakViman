@@ -460,7 +460,7 @@
 .training-page-blog03 {
   width: 100%;
   display: flex;
-  padding: var(--dl-space-space-oneandhalfunits);
+  /* padding: var(--dl-space-space-oneandhalfunits); */
   max-width: 100%;
   align-items: center;
   flex-direction: column;
@@ -597,7 +597,7 @@
 .training-page-blog06 {
   width: 100%;
   display: flex;
-  padding: var(--dl-space-space-oneandhalfunits);
+  /* padding: var(--dl-space-space-oneandhalfunits); */
   max-width: 100%;
   align-items: center;
   flex-direction: column;
@@ -1088,18 +1088,14 @@
     padding-right: var(--dl-space-space-twounits);
   }
   .training-page-blog03 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+    /* padding-left: var(--dl-space-space-twounits); */
+    /* padding-right: var(--dl-space-space-twounits); */
   }
   .training-page-blog04 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
   .training-page-blog05 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .training-page-blog06 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
