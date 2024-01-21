@@ -1227,10 +1227,10 @@ ul{
 
 @media (max-width:912px) {
   .main-page-mobile-menu{
-    width: 100%;
+    width: 65%;
     display: none;
     text-align: center;
-    right: 0;
+    right: -34%;
     position: fixed;
     margin: auto;
   }
@@ -1328,3 +1328,14 @@ ul{
   background: #199033;
   /* border-radius: 4px; */
 }
+
+/* details >summary
+{
+  list-style-type:;
+}
+
+details[open] >summary
+{
+  list-style-type: '⏑  ';
+} */
+
