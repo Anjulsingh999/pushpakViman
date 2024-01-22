@@ -395,8 +395,8 @@
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
-  justify-content: end;
-  margin-top: 15px;
+  justify-content: space-between;
+  /* margin-top: 15px; */
 }
 .main-page-image1 {
   height: 7rem;
