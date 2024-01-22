@@ -23,6 +23,7 @@
 }
 .blog-post-card3-heading {
   margin-bottom: var(--dl-space-space-threeunits);
+  
 }
 .blog-post-card3-container1 {
   display: flex;
@@ -101,6 +102,7 @@
   }
   .blog-post-card3-heading {
     margin-bottom: var(--dl-space-space-twounits);
+    font-size: 26px;
   }
   .blog-post-card3-container1 {
     margin-bottom: var(--dl-space-space-twounits);

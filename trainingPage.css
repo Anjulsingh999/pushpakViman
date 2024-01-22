@@ -38,6 +38,7 @@
 }
 .blog-post-card3-heading {
   margin-bottom: var(--dl-space-space-threeunits);
+  
 }
 .blog-post-card3-container1 {
   display: flex;
@@ -109,6 +110,7 @@
   }
   .blog-post-card3-heading {
     margin-bottom: var(--dl-space-space-twounits);
+    font-size: 26px;
   }
   .blog-post-card3-container1 {
     margin-bottom: var(--dl-space-space-twounits);
@@ -581,7 +583,7 @@
 .training-page-container29 {
   flex: 0 0 auto;
   width: 100%;
-  height: 100px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
