@@ -454,7 +454,7 @@
 .service-page-blog03 {
   width: 100%;
   display: flex;
-  padding: var(--dl-space-space-oneandhalfunits);
+  /* padding: var(--dl-space-space-oneandhalfunits); */
   max-width: 100%;
   align-items: center;
   flex-direction: column;
@@ -496,7 +496,7 @@
 .service-page-blog04 {
   width: 100%;
   display: flex;
-  padding: var(--dl-space-space-halfunit);
+  /* padding: var(--dl-space-space-halfunit); */
   max-width: 100%;
   align-items: center;
   flex-direction: column;
@@ -1081,14 +1081,8 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .service-page-blog03 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .service-page-blog04 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
+ 
+ 
   .service-page-blog05 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -1202,19 +1196,19 @@
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
+    /* padding-bottom: var(--dl-space-space-twounits); */
   }
   .service-page-blog03 {
     padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
+    /* padding-left: var(--dl-space-space-unit); */
+    /* padding-right: var(--dl-space-space-unit); */
     padding-bottom: var(--dl-space-space-twounits);
   }
   .service-page-blog04 {
     padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
+    /* padding-left: var(--dl-space-space-unit); */
+    /* padding-right: var(--dl-space-space-unit); */
+    /* padding-bottom: var(--dl-space-space-twounits); */
   }
   .service-page-blog05 {
     padding-top: var(--dl-space-space-twounits);

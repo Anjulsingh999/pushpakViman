@@ -841,6 +841,7 @@
   font-size: 13px;
   line-height: 20px;
   color: #595959;
+  text-align: justify;
   
   
 }
@@ -1689,7 +1690,7 @@
     align-self: flex-start;
   }
   .blog-post-card3-root-class-name85 {
-    align-self: flex-start;
+    /* align-self: flex-start; */
   }
 }
 @media(max-width: 912px) {

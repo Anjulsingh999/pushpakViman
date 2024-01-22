@@ -1208,8 +1208,8 @@
   }
   .training-page-blog03 {
     padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
+    /* padding-left: var(--dl-space-space-unit); */
+    /* padding-right: var(--dl-space-space-unit); */
     padding-bottom: var(--dl-space-space-twounits);
   }
   .training-page-blog04 {
@@ -1226,8 +1226,8 @@
   }
   .training-page-blog06 {
     padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
+    /* padding-left: var(--dl-space-space-unit); */
+    /* padding-right: var(--dl-space-space-unit); */
     padding-bottom: var(--dl-space-space-twounits);
   }
   .training-page-blog07 {
