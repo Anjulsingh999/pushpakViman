@@ -1358,3 +1358,9 @@ details[open] >summary
   list-style-type: '⏑  ';
 } */
 
+.icon-size
+{
+  height: 22px;
+  width: 22px;
+}
+
