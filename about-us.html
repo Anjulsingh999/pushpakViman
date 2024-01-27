@@ -844,14 +844,15 @@
                   <span>
                     <b>Dr. Sanjay Kumar Soni</b> is a distinguished Professor in the Electronics and Communication
                     Engineering Department at Madan Mohan Malaviya University of Technology, Gorakhpur, holding a Ph.D.
-                    from IIT Kharagpur. His extensive academic background includes 43 publications in SCI-indexed
+                    from IIT Kharagpur. His extensive <span id="dots">...</span><span id="more">academic background includes 43 publications in SCI-indexed
                     journals and 42 international conference presentations. Leading sponsored projects, such as the
                     <b>"Development of IoT and Drone-based Agriculture Monitoring System,"</b> funded by the <b>Ministry
                       of Electronics and Information Technology (MeiTY), Government of India, New Delhi</b>, emphasize
                     skill development for socially deprived communities. Serving as Chief Investigator, Dr. Soni
                     demonstrates a commitment to research and innovation. His advisory role in the Pushpak Drone Viman
                     project and interest in motivational speaking further showcase his contributions to academia and
-                    technology's societal impact.
+                    technology's societal impact.</span>
+                    <span onclick="myFunction()" id="myBtn" class="readmorebtn">Read more</span>
                   </span>
                 </span>
                 <!-- <button type="button" class="blog-post-card3-button button">
@@ -1402,5 +1403,22 @@
 <script src="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
 <script src="loader.js"></script>
 <script src="nav.js"></script>
+<script>
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = ""; 
+      moreText.style.display = "inline";
+    }
+  }
+  </script>
 
 </html>

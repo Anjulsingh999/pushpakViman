@@ -81,14 +81,14 @@
   justify-content: space-between;
   border-radius: 20px;
   box-shadow: 0px 0px 10px -2.5px rgba(0, 0, 0, 0.155);
+  transition: all 0.4s ease-in-out;
 
 }
 
 .testimonial-card11-testimonial-card:hover
 {
   box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.155);
-  transition: all 0.4s ease-in-out;
-  transform: scale(1.02);
+  transform: scale(1.04);
 }
 
 .testimonial-card11-testimonial {
@@ -357,12 +357,11 @@
   border-radius: var(--dl-radius-radius-radius8);
   text-transform: capitalize;
   background-color: rgb(0, 0, 0);
+  transition: all 0.3s ease-in-out;
 }
 
 .main-page-register:hover
 {
-  /* box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.055); */
-  transition: all 0.3s ease-in-out;
   transform: scale(1.04);
 }
 .main-page-burger-menu {
@@ -611,56 +610,56 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
+  transition: all 0.4s ease-in-out;
 }
 
 .main-page-icon10:hover
 {
   transform: scale(1.5);
-  transition: all 0.4s ease-in-out;
 }
 .main-page-icon12 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
+  transition: all 0.4s ease-in-out;
 }
 
 .main-page-icon12:hover
 {
   transform: scale(1.5);
-  transition: all 0.4s ease-in-out;
 }
 .main-page-icon14 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
+  transition: all 0.4s ease-in-out;
 }
 
 .main-page-icon14:hover
 {
 transform: scale(1.5);
-  transition: all 0.4s ease-in-out;
 }
 .main-page-icon16 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   align-self: center;
   margin-right: var(--dl-space-space-twounits);
+  transition: all 0.4s ease-in-out;
 }
 
 .main-page-icon16:hover
 {
   transform: scale(1.5);
-  transition: all 0.4s ease-in-out;
 }
 .main-page-icon18 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
+  transition: all 0.4s ease-in-out;
 }
 
 .main-page-icon18:hover
 {
   transform: scale(1.5);
-  transition: all 0.4s ease-in-out;
 }
 .main-page-container14 {
   flex: 0 0 auto;

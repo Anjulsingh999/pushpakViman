@@ -1772,3 +1772,15 @@
   }
 }
 
+
+#more {
+  display: none;
+}
+
+.readmorebtn
+{
+  color: #595959;
+  font-weight: 600;
+  /* text-decoration: underline; */
+}
+
