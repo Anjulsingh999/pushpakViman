@@ -2,16 +2,476 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 #wrapper
 {
     width: 100vw;
     height: auto;
+    
 }
 
 .navbar
 {
-    height: 100px;
+    height: 100px;  
+}
+
+/* container 1 */
+
+.aboutus-container1
+{
+    height: 90vh;
+    width: 100vw;
+    background-image: url(About_us/herosection.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background-color:rgba(4, 4, 4, 0.4); */
+    backdrop-filter: opacity(100%);
+    background-position: center;
+
+}
+
+.aboutus-herosection
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 700;
+    background-color: #0a0a0ab1;
+    /* opacity: 0.8; */
+}
+
+.about-herosection-text
+{
+    color: white;
+    z-index: 100;
+
+}
+
+@media (max-width:520px) {
+    
+    .about-herosection-text
+{
+    font-size: 4rem;
+}
+}
+@media (min-width:520px) and (max-width:912px) {
+
+    .about-herosection-text
+    {
+        font-size: 5.4rem;
+    }
+}
+@media (min-width:912px) and (max-width:1280px) {
+    .about-herosection-text
+{
+    font-size: 5rem;
+}
     
 }
+@media (min-width:1280px) and (max-width:1600px) {
+
+    .about-herosection-text
+    {
+        font-size: 6rem;
+    }
+}
+
+/* container 2 */
+
+.aboutus-container2
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.thought-section
+{
+    font-size: 1.6rem;
+    margin: 5rem 9rem;
+    font-weight: 600;
+}
+
+.aboutus-container2
+{
+    height: auto;
+}
+
+
+@media (max-width:520px) {
+    
+    .thought-section
+    {
+        font-size: 1.3rem;
+        margin: 5rem 2rem;
+    }
+}
+@media (min-width:520px) and (max-width:912px) {
+
+    .thought-section
+    {
+        font-size: 1.6rem;
+        margin: 5rem 3rem;
+    }
+}
+
+
+/* container 3 */
+
+.about-box3
+{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.left-container3
+{
+    width: 35%;
+
+}
+
+
+.left-container3 img
+{
+    width: 100%;
+    height: 60vh;
+}
+
+.right-container3
+{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 3rem;
+    gap: 2rem;
+    width: 65%;
+}
+
+#container3-heading
+{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#container3-text 
+{
+    font-size: 1.3rem; 
+    line-height: 2.5rem;
+    
+}
+
+@media (max-width:520px) {
+    
+    .about-box3
+    {
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    
+    .left-container3
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .left-container3 img
+{
+    width: 100%;
+    height: 30vh;
+}
+
+.right-container3
+{  
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 3rem;
+    gap: 2rem;
+    width: 100%;
+}
+
+#container3-heading
+{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#container3-text 
+{
+    font-size: 1.1rem; 
+    line-height: 2rem;
+    
+}
+}
+@media (min-width:520px) and (max-width:912px) {
+
+    .about-box3
+    {
+        gap: 3rem;
+        flex-wrap: wrap;
+    }
+    
+    .left-container3
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .left-container3 img
+{
+    width: 70%;
+    height: 40vh;
+}
+
+.right-container3
+{  
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 3rem;
+    gap: 2rem;
+    width: 100%;
+}
+
+#container3-heading
+{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#container3-text 
+{
+    font-size: 1.2rem; 
+    line-height: 1.8rem;
+    
+}
+}
+@media (min-width:912px) and (max-width:1280px) {
+.about-box3
+{
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.left-container3
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.left-container3 img
+{
+    width: 50%;
+    height: 40vh;
+}
+
+.right-container3
+{
+   
+    width: 100%;
+}
+
+.right-container3
+{  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 3rem;
+    gap: 2rem;
+    width: 100%;
+}
+
+#container3-heading
+{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#container3-text 
+{
+    font-size: 1.3rem; 
+    line-height: 2.4rem;
+    
+}
+    
+}
+@media (min-width:1280px) and (max-width:1600px) {
+
+    .about-box3
+{
+    gap: 1.5rem;
+    flex-wrap:nowrap;
+}
+    .left-container3 img
+{
+    width: 100%;
+    height: 60vh;
+}
+    .right-container3
+{  
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 0 3rem;
+    gap: 3rem;
+    height: 100%;
+}
+
+#container3-heading
+{
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+#container3-text 
+{
+    font-size: 1.4rem; 
+    line-height: 2.2rem;
+    
+}
+}
+
+@media (min-width:1600px)
+{
+    .about-box3
+{
+    gap: 1.8rem;
+    flex-wrap:nowrap;
+}
+    .left-container3 img
+{
+    width: 100%;
+    height: 70vh;
+}
+    .right-container3
+{  
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 0 3rem;
+    gap: 1rem;
+    height: 100%;
+}
+
+#container3-heading
+{
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+#container3-text 
+{
+    font-size: 1.4rem; 
+    line-height: 2.2rem;
+    
+}
+}
+
+/* container 4 */
+
+.aboutus-container4
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 3rem;
+}
+
+.aboutus-box
+{
+    width: 50vw;
+    height: 200px;
+    margin: 3rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #137229;
+    overflow-y: hidden;
+    padding: 2rem;
+}
+
+.aboutus-vision-image
+{
+    padding: 0 2rem;
+    width: 40%;
+}
+
+.aboutus-vision-image img
+{
+    width: auto;
+    height: 110px;
+}
+
+.vision-heading
+{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 1.3rem;
+}
+
+.aboutus-vision
+{
+    padding: 2rem;
+}
+
+.vision-text
+{
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+
+.aboutus-mission-image
+{
+    width: 150px;
+    height: auto;
+}
+
+.aboutus-mission-image img
+{
+    width: 200px;
+    height: 110px;
+}
+
+.mission-heading
+{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 1.3rem;
+}
+
+.mission-text
+{
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
