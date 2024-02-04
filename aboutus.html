@@ -7,14 +7,43 @@
     <title>Document</title>
     <link rel="stylesheet" href="aboutus.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+   
+    <link rel="stylesheet" href="aboutus-crousal.css">
 </head>
 
 <body>
 
-    <div id="wrapper">
-        <div class="navbar">
-        </div>
+    
 
+    <div id="aboutus-wrapper">
+        <div class="navbar">
+
+            <div class="navlogo">
+                <img src="main_page/logo.png" alt="">
+            </div>
+
+            <div class="navigation">
+                <div>Home</div>
+                <div>Training</div>
+                <div>Services</div>
+                <div>Product</div>
+                <div>R&D</div>
+                <div>About us</div>
+            </div>
+
+            <div class="nav-contactus-btn">
+                <button>Contact Us</button>
+            </div>
+         
+
+            <div class="nav-hamburger">
+                <img src="About_us/menu-line.png" alt="">
+            </div>
+            
+        </div>
+        <div class="black-space"></div>
         <div class="aboutus-container1">
             <div class="aboutus-herosection">
                 <div class="about-herosection-text">About Us</div>
@@ -38,8 +67,8 @@
             </div>
 
 
-            <div class="aboutus-container3">
-                <div class="about-box3">
+            <div class="aboutus-container3 " >
+                <div class="about-box3" >
                     <div class="left-container3" >
                         <img src="About_us/aboutus-image.jpg" alt="">
                     </div>
@@ -73,7 +102,7 @@
             </div>
 
             <div class="aboutus-container4">
-                <div class="aboutus-box-vision aboutus-box">
+                <div class="aboutus-box-vision aboutus-box" >
                     <div class="aboutus-vision-image">
                         <img src="About_us/vision.png" alt="">
                     </div>
@@ -87,7 +116,7 @@
                     </div>
                 </div>
 
-                <div class="aboutus-box-mission aboutus-box">
+                <div class="aboutus-box-mission aboutus-box " >
                     <div class="aboutus-mission-image">
                         <img src="About_us/mission.png" alt="">
                     </div>
@@ -274,40 +303,281 @@
                         </div>
                     </div>
                     
-                </div>
-            </div>
+              
 
             <div class="aboutus-container7">
                 <div class="ourmentors-box">
                     <div class="ourmentor-heading">
-                        Our Mentor
+                        Our Mentors
                     </div>
 
-                    <div class="ourmentor-profile-box">
-                        <div class="ourmentors-image">
-                            <img src="About_us/Soni Sir.jpg" alt="">
+                    <div class="ourmentorprofile-container">
+
+                        <div class="ourmentor-profile-box">
+                            <div class="ourmentors-image">
+                                <!-- <img src="About_us/Soni Sir.jpg" alt=""> -->
+                            </div>
+                            <div class="ourmentor-container">
+                                <div class="ourmentors-name">
+                                    Prof. Sanjay Kumar Soni
+                                    <div class="ourmentor-position">
+                                        Chief Advisor
+                                    </div>
+                                </div>
+                                
+                                <div class="ourmentors-description">
+                                    <b>Dr. Sanjay Kumar Soni</b> is a distinguished Professor in the Electronics and Communication
+                        Engineering Department at Madan Mohan Malaviya University of Technology, Gorakhpur, holding a Ph.D. from IIT Kharagpur. His extensive academic background includes 43 publications in SCI-indexed
+                        journals and 42 international conference
+                        <span id="ourmentordots">...</span><span id="ourmentormore">
+                         presentations. Leading sponsored projects, such as the
+                        <b>"Development of IoT and Drone-based Agriculture Monitoring System,"</b> funded by the <b>Ministry
+                          of Electronics and Information Technology (MeiTY), Government of India, New Delhi</b>, emphasize
+                        skill development for socially deprived communities. Serving as Chief Investigator, Dr. Soni
+                        demonstrates a commitment to research and innovation. His advisory role in the Pushpak Drone Viman
+                        project and interest in motivational speaking further showcase his contributions to academia and
+                        technology's societal impact.</span>
+                        <span onclick="ourmentormyFunction()" id="ourmentormyBtn" class="ourmentorreadmorebtn">Read more</span>
+                                </div>
+                                <div class="profile-icon">
+                                      
+                                    <div class="icon1">
+                                        <div class="icon-outer-box">
+                                            
+                                            <img src="About_us/icons/whatsapp-line.png" alt="">
+                                        </div>
+                                    </div> 
+                                    <div class="icon2">
+                                        <div class="icon-outer-box">
+                                            <img src="About_us/icons/twitter-x-line.png" alt="">
+                                        </div>
+                                    </div> 
+                                    <div class="icon3">
+                                        <div class="icon-outer-box">
+                                            <img src="About_us/icons/facebook-fill.png" alt="">
+                                        </div>
+                                    </div> 
+                                    <div class="icon4">
+                                        <div class="icon-outer-box">
+                                            <img src="About_us/icons/mail-fill.png" alt="">
+                                        </div>
+                                    </div> 
+                                    <div class="icon5">
+                                        <div class="icon-outer-box">
+                                            <img src="About_us/icons/linkedin-fill.png" alt="">
+                                        </div>
+                                    </div> 
+                                    
+                                </div>
+                            </div>
                         </div>
-                        <div class="ourmentor-container">
-                            <div class="ourmentors-name">
-                                Prof. Sanjay Kumar Soni
+
+
+                        <!-- <div class="ourmentor-profile-box">
+                            <div class="ourmentors-image">
+                                <img src="About_us/Soni Sir.jpg" alt="">
                             </div>
-                            <div class="ourmentor-position">
-                                Chief Advisor
+                            <div class="ourmentor-container">
+                                <div class="ourmentors-name">
+                                    Prof. Sanjay Kumar Soni
+                                    <div class="ourmentor-position">
+                                        Chief Advisor
+                                    </div>
+                                </div>
+                                
+                                <div class="ourmentors-description">
+                                    <b>Dr. Sanjay Kumar Soni</b> is a distinguished Professor in the Electronics and Communication
+                        Engineering Department at Madan Mohan Malaviya University of Technology, Gorakhpur, holding a Ph.D. from IIT Kharagpur. His extensive academic background includes 43 publications in SCI-indexed
+                        journals and 42 international conference
+                        <span id="ourmentordots">...</span><span id="ourmentormore">
+                         presentations. Leading sponsored projects, such as the
+                        <b>"Development of IoT and Drone-based Agriculture Monitoring System,"</b> funded by the <b>Ministry
+                          of Electronics and Information Technology (MeiTY), Government of India, New Delhi</b>, emphasize
+                        skill development for socially deprived communities. Serving as Chief Investigator, Dr. Soni
+                        demonstrates a commitment to research and innovation. His advisory role in the Pushpak Drone Viman
+                        project and interest in motivational speaking further showcase his contributions to academia and
+                        technology's societal impact.</span>
+                        <span onclick="ourmentormyFunction()" id="ourmentormyBtn" class="ourmentorreadmorebtn">Read more</span>
+                                </div>
+                                <div class="profile-icon">
+                                      
+                                    <div class="icon1">
+                                        <div class="icon-outer-box">
+                                            
+                                            <img src="About_us/icons/whatsapp-line.png" alt="">
+                                        </div>
+                                    </div> 
+                                    <div class="icon2">
+                                        <div class="icon-outer-box">
+                                            <img src="About_us/icons/twitter-x-line.png" alt="">
+                                        </div>
+                                    </div> 
+                                    <div class="icon3">
+                                        <div class="icon-outer-box">
+                                            <img src="About_us/icons/facebook-fill.png" alt="">
+                                        </div>
+                                    </div> 
+                                    <div class="icon4">
+                                        <div class="icon-outer-box">
+                                            <img src="About_us/icons/mail-fill.png" alt="">
+                                        </div>
+                                    </div> 
+                                    <div class="icon5">
+                                        <div class="icon-outer-box">
+                                            <img src="About_us/icons/linkedin-fill.png" alt="">
+                                        </div>
+                                    </div> 
+                                    
+                                </div>
                             </div>
-                            <div class="ourmentors-description">
-                                <b>Dr. Sanjay Kumar Soni</b> is a distinguished Professor in the Electronics and Communication
-                    Engineering Department at Madan Mohan Malaviya University of Technology, Gorakhpur, holding a Ph.D.
-                    from IIT Kharagpur. His extensive <span id="ourmentordots">...</span><span id="ourmentormore">academic background includes 43 publications in SCI-indexed
-                    journals and 42 international conference presentations. Leading sponsored projects, such as the
-                    <b>"Development of IoT and Drone-based Agriculture Monitoring System,"</b> funded by the <b>Ministry
-                      of Electronics and Information Technology (MeiTY), Government of India, New Delhi</b>, emphasize
-                    skill development for socially deprived communities. Serving as Chief Investigator, Dr. Soni
-                    demonstrates a commitment to research and innovation. His advisory role in the Pushpak Drone Viman
-                    project and interest in motivational speaking further showcase his contributions to academia and
-                    technology's societal impact.</span>
-                    <span onclick="ourmentormyFunction()" id="ourmentormyBtn" class="ourmentorreadmorebtn">Read more</span>
+                        </div> -->
+
+
+                        <!-- <div class="ourmentor-profile-box">
+                            <div class="ourmentors-image">
+                                <img src="About_us/Soni Sir.jpg" alt="">
                             </div>
-                        </div>
+                            <div class="ourmentor-container">
+                                <div class="ourmentors-name">
+                                    Prof. Sanjay Kumar Soni
+                                    <div class="ourmentor-position">
+                                        Chief Advisor
+                                    </div>
+                                </div>
+                                
+                                <div class="ourmentors-description">
+                                    <b>Dr. Sanjay Kumar Soni</b> is a distinguished Professor in the Electronics and Communication
+                        Engineering Department at Madan Mohan Malaviya University of Technology, Gorakhpur, holding a Ph.D. from IIT Kharagpur. His extensive academic background includes 43 publications in SCI-indexed
+                        journals and 42 international conference
+                        <span id="ourmentordots">...</span><span id="ourmentormore">
+                         presentations. Leading sponsored projects, such as the
+                        <b>"Development of IoT and Drone-based Agriculture Monitoring System,"</b> funded by the <b>Ministry
+                          of Electronics and Information Technology (MeiTY), Government of India, New Delhi</b>, emphasize
+                        skill development for socially deprived communities. Serving as Chief Investigator, Dr. Soni
+                        demonstrates a commitment to research and innovation. His advisory role in the Pushpak Drone Viman
+                        project and interest in motivational speaking further showcase his contributions to academia and
+                        technology's societal impact.</span>
+                        <span onclick="ourmentormyFunction()" id="ourmentormyBtn" class="ourmentorreadmorebtn">Read more</span>
+                                </div>
+                                <div class="profile-icon">
+                                      
+                                    <div class="icon1">
+                                        <div class="icon-outer-box">
+                                            
+                                            <img src="About_us/icons/whatsapp-line.png" alt="">
+                                        </div>
+                                    </div> 
+                                    <div class="icon2">
+                                        <div class="icon-outer-box">
+                                            <img src="About_us/icons/twitter-x-line.png" alt="">
+                                        </div>
+                                    </div> 
+                                    <div class="icon3">
+                                        <div class="icon-outer-box">
+                                            <img src="About_us/icons/facebook-fill.png" alt="">
+                                        </div>
+                                    </div> 
+                                    <div class="icon4">
+                                        <div class="icon-outer-box">
+                                            <img src="About_us/icons/mail-fill.png" alt="">
+                                        </div>
+                                    </div> 
+                                    <div class="icon5">
+                                        <div class="icon-outer-box">
+                                            <img src="About_us/icons/linkedin-fill.png" alt="">
+                                        </div>
+                                    </div> 
+                                    
+                                </div>
+                            </div>
+                        </div> -->
+
+
+                    </div>
+                    
+
+                   
+                </div>
+            </div>
+
+
+            <div class="aboutus-container8">
+                <div class="team-container">
+                    <div class="team-heading">
+                        Our Team
+                    </div>
+                    <div class="team-carousal">
+                        <div class="wrapper">
+                            <i id="left" class="fa-solid fa-angle-left"></i>
+                            <ul class="carousel">
+                              <li class="card">
+                                <div class="img"><img src="images/img-1.jpg" alt="img" draggable="false"></div>
+                                <h2>Ankit Kumar</h2>
+                                <span>Drone</span>
+                              </li>
+                              <li class="card">
+                                <div class="img"><img src="images/img-2.jpg" alt="img" draggable="false"></div>
+                                <h2>Brijesh Maurya</h2>
+                                <span>Drone</span>
+                              </li>
+                              <li class="card">
+                                <div class="img"><img src="images/img-3.jpg" alt="img" draggable="false"></div>
+                                <h2>Abhay Singh Yadav</h2>
+                                <span>Drone</span>
+                              </li>
+                              <li class="card">
+                                <div class="img"><img src="images/img-4.jpg" alt="img" draggable="false"></div>
+                                <h2>Harsh Raj</h2>
+                                <span>3D Printing</span>
+                              </li>
+                              <li class="card">
+                                <div class="img"><img src="images/img-5.jpg" alt="img" draggable="false"></div>
+                                <h2>Mohit</h2>
+                                <span>IoT</span>
+                              </li>
+                              <li class="card">
+                                <div class="img"><img src="images/img-6.jpg" alt="img" draggable="false"></div>
+                                <h2>Ayush Panday</h2>
+                                <span>IoT</span>
+                              </li>
+                              <li class="card">
+                                <div class="img"><img src="images/img-6.jpg" alt="img" draggable="false"></div>
+                                <h2>Pranjal Maurya</h2>
+                                <span>IoT</span>
+                              </li>
+                              <li class="card">
+                                <div class="img"><img src="images/img-6.jpg" alt="img" draggable="false"></div>
+                                <h2>Prasant Chaubey</h2>
+                                <span>IoT</span>
+                              </li>
+                              <li class="card">
+                                <div class="img"><img src="images/img-6.jpg" alt="img" draggable="false"></div>
+                                <h2>Brijesh Maurya</h2>
+                                <span>IoT</span>
+                              </li>
+                            </ul>
+                            <i id="right" class="fa-solid fa-angle-right"></i>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="aboutus-container9">
+                <div class="aboutus-socialmedia">
+                    <div class="socialmedia-icon1 socialmedia">
+                        <img src="About_us/icons/facebook-fill-white.png" alt="">
+                    </div>
+                    <div class="socialmedia-icon2 socialmedia">
+                        <img src="About_us/icons/twitter-x-line-white.png" alt="">
+                    </div>
+                    <div class="socialmedia-icon3 socialmedia">
+                        <img src="About_us/icons/linkedin-fill white.png" alt="">
+                    </div>
+                    <div class="socialmedia-icon4 socialmedia">
+                        <img src="About_us/icons/whatsapp-line-white.png" alt="">
+                    </div>
+                    <div class="socialmedia-icon5 socialmedia">
+                        <img src="About_us/icons/mail-line-white.png" alt="">
                     </div>
                 </div>
             </div>
@@ -363,6 +633,7 @@
             }
         }
     </script>
+    <script src="aboutus-crousal.js"></script>
 
 </body>
 
