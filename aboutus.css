@@ -728,7 +728,7 @@
 .objective-heading {
   font-size: 30px;
   font-weight: 700;
-  padding-bottom: 1.2rem;
+  margin: 40px 0;
 }
 
 .objective-text {
@@ -936,7 +936,6 @@
 .ourmentors-description {
   font-size: 18px;
   line-height: 1.6rem;
-
 }
 
 
