@@ -243,6 +243,13 @@
 }
 
 
+@media (max-width:1390px) {
+ .blog-post-card3-blog-post-card 
+ {
+  padding: 24px;
+ }
+}
+
 
 
 
@@ -868,7 +875,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     padding: 2rem;
-    border-radius: 20px;
+    /* border-radius: 20px; */
   }
   
   .aboutus-vision-image {
