@@ -1,3 +1,6 @@
+*{
+  user-select: none;
+}
 .navigation-links2-nav {
   flex:auto;
   display: flex;
@@ -600,7 +603,7 @@
 .main-page-social-bar {
   width: 100%;
   display: flex;
-  padding: var(--dl-space-space-threeunits);
+  padding: 21px;
   justify-content: center;
   background-color: 	white;
 }
@@ -704,7 +707,7 @@ transform: scale(1.5);
 .main-page-container16 {
   display: flex;
   align-items: flex-start;
-  margin-right: 10rem;
+  margin-right: 6rem;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -712,7 +715,7 @@ transform: scale(1.5);
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
-  margin-right: 10rem;
+  margin-right: 6rem;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -752,7 +755,7 @@ transform: scale(1.5);
 .main-page-container17 {
   display: flex;
   align-items: flex-start;
-  margin-right: 10rem;
+  margin-right: 6rem;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -760,7 +763,7 @@ transform: scale(1.5);
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
-  margin-right: 10rem;
+  margin-right: 6rem;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -884,7 +887,7 @@ transform: scale(1.5);
     background-color: white;
   }
   .main-page-social-bar {
-    padding: var(--dl-space-space-twounits);
+    padding: 21px;
     background-color: white;
   }
   .main-page-icon16 {
@@ -1040,10 +1043,10 @@ transform: scale(1.5);
     grid-template-columns: 1fr;
   }
   .main-page-social-bar {
-    padding-top: var(--dl-space-space-twounits);
+    /* padding-top: var(--dl-space-space-twounits); */
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
+    /* padding-bottom: var(--dl-space-space-twounits); */
   }
   .main-page-footer {
     padding: var(--dl-space-space-unit);
@@ -1360,4 +1363,37 @@ details[open] >summary
   height: 22px;
   width: 22px;
 }
+
+
+.profile-socialmedia-mainpage
+{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+  gap: 1.2rem;
+}
+
+.icon-mainpage img
+{
+  height: 35px;
+  width: 35px;
+  padding: 7px;
+
+}
+
+.icon-mainpage
+{
+  transition: all 0.3s;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.403);
+  border-radius: 50%;
+}
+
+.icon-mainpage:hover
+{
+  background-color: #0606061e;
+  border-radius: 100%;
+}
+
 

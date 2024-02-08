@@ -4,20 +4,20 @@
   max-width: var(--dl-size-size-maxwidth);
   flex-direction: row;
   justify-content: center;
-  /* border: 1px solid black; */
-  border-radius: 23px;
-  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.137);
+  border: 1.5px solid black;
+  /* border-radius: 23px; */
+  /* box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.137); */
 }
 .post-card-reverse {
   flex-direction: row-reverse;
 }
 .blog-post-card3-image {
-  width: 400px;
+  width: 275px;
   object-fit: cover;
   /* box-shadow: 5px 5px 30px 3px rgba(0, 0, 0, 0.132); */
-  border-radius: 15px;
-  padding: 25px;
-  border-radius: 55px;
+  /* border-radius: 15px; */
+  padding: 10px;
+  /* border-radius: 55px; */
 }
 
 .group_btn_training_page
@@ -35,9 +35,18 @@
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
+  margin: 0 1.5rem;
+  text-align: justify;
+}
+
+@media (max-width:912px) {
+  .blog-post-card3-container {
+    margin: 0 ;
+
+  }
 }
 .blog-post-card3-heading {
-  margin-bottom: var(--dl-space-space-threeunits);
+  margin: 25px 0;
   
 }
 .blog-post-card3-container1 {
@@ -49,15 +58,18 @@
 }
 .blog-post-card3-text {
   color: var(--dl-color-gray-500);
-  margin-bottom: var(--dl-space-space-twounits);
+  /* margin-bottom: var(--dl-space-space-twounits); */
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .blog-post-card3-button {
   color: rgb(255, 255, 255);
-  border-radius: 35px;
+  /* border-radius: 35px; */
   background-color: #060606;
   margin-top: 30px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 
@@ -70,10 +82,11 @@
 
 .blog-post-card3-button1 {
   color: rgb(0, 0, 0);
-  border-radius: 35px;
+  /* border-radius: 35px; */
   background-color: white;
   margin-top: 30px;
   font-weight: 700;
+  cursor: pointer;
   
 }
 
@@ -88,9 +101,9 @@
 
 @media(max-width: 1280px) {
   .blog-post-card3-image {
-    width: 50%;
-  }
-  .blog-post-card3-button {
+    width:35%;
+  } 
+   .blog-post-card3-button {
     color: #ffffff;
     font-style: normal;
     font-weight: 800;
@@ -445,7 +458,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 .training-page-text11 {
   font-size: 3rem;
@@ -591,7 +604,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 .training-page-text12 {
   font-size: 3rem;
@@ -599,6 +612,12 @@
   text-align: center;
   font-weight: 900;
   /* text-transform: uppercase; */
+}
+
+@media (max-width:798px) {
+  .training-page-text12 {
+    font-size: 2rem;
+  }
 }
 .training-page-blog06 {
   width: 100%;
@@ -1195,7 +1214,7 @@
 }
 @media(max-width: 540px) {
   .training-page-blog {
-    padding-top: var(--dl-space-space-twounits);
+    /* padding-top: var(--dl-space-space-twounits); */
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
@@ -1213,7 +1232,7 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
   .training-page-blog03 {
-    padding-top: var(--dl-space-space-twounits);
+    /* padding-top: var(--dl-space-space-twounits); */
     /* padding-left: var(--dl-space-space-unit); */
     /* padding-right: var(--dl-space-space-unit); */
     padding-bottom: var(--dl-space-space-twounits);
@@ -1231,7 +1250,7 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
   .training-page-blog06 {
-    padding-top: var(--dl-space-space-twounits);
+    /* padding-top: var(--dl-space-space-twounits); */
     /* padding-left: var(--dl-space-space-unit); */
     /* padding-right: var(--dl-space-space-unit); */
     padding-bottom: var(--dl-space-space-twounits);
@@ -1257,10 +1276,31 @@
 }
 @media(max-width: 520px) {
   .training-page-text12 {
-    font-size: 3rem;
+    font-size: 1.9rem;
     font-style: normal;
     font-weight: 900;
     /* text-transform: uppercase; */
+  }
+  .training-page-container29 {
+    height: 70px; 
+  }
+  .training-page-text11 {
+    font-size: 1.9rem;
+  }
+
+  .training-page-container16 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 70px;
+  }
+
+  .training-page-container03 {
+    height: 70px;
+  }
+
+  .training-page-text10
+  {
+    font-size: 1.9rem;
   }
 }
 @media(max-width: 479px) {
