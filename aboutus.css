@@ -113,10 +113,10 @@
   padding: 1.5rem;
 }
 .blog-post-card3-image1 {
-  width: 300px;
-  height: 300px;
+  width: 260px;
+  height: 260px;
   object-fit: cover;
-  padding: 1.4rem;
+  /* padding: 1.4rem; */
   border-radius: 100%;
   margin: 2rem;
 }
@@ -181,6 +181,11 @@
     /* margin-bottom: 1.5rem; */
     font-size: 24px;
   }
+
+  .blog-post-card-objective-container
+    {
+      padding: 20px;
+    }
 }
 #profile-title
 {
@@ -511,6 +516,12 @@
   }
 }
 
+@media (max-width:512px) {
+  .blog-post-card3-heading {
+    margin-bottom: 5px;
+  }
+}
+
 .aboutusmainpage-container {
   width: 100%;
   display: flex;
@@ -738,7 +749,8 @@
   width: 100%;
   height: auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
 .aboutusmainpage-container09 {
@@ -1098,7 +1110,8 @@
   width: 100%;
   height: auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .aboutusmainpage-container16 {
   flex: 0 0 auto;
