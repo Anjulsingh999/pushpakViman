@@ -98,6 +98,13 @@
   gap: 2.5rem;
 }
 
+@media (max-width:512px) {
+  .blog-post-card3-blog-post-card {
+    width: 90%;
+
+  }
+}
+
 
 .blog-post-card3-image {
  
@@ -109,18 +116,20 @@
   width: 300px;
   height: 300px;
   object-fit: cover;
-  padding: 2rem;
+  padding: 1.4rem;
   border-radius: 100%;
   margin: 2rem;
 }
 .blog-post-card3-container {
   flex: 1;
   display: flex;
-  padding: 14px;
+  padding: 2.3rem;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
 }
+
+
 
 .blog-post-card-objective-container {
   flex: 1;
@@ -150,7 +159,7 @@
 .blog-post-card3-text {
   color: black;
   text-align: justify;
-  padding-right: 2.3rem;
+  /* padding-right: 2.3rem; */
   font-size: 17px;
 }
 .blog-post-card3-button {
@@ -159,6 +168,20 @@
   background-color: #060606;
 }
 
+@media (max-width:512px) {
+  .blog-post-card3-container {
+
+    padding: 1.3rem;
+    padding-top: 0px;
+  
+  }
+
+  .blog-post-card3-heading {
+  
+    /* margin-bottom: 1.5rem; */
+    font-size: 24px;
+  }
+}
 #profile-title
 {
   padding-bottom: 20px;
@@ -340,8 +363,13 @@
 
 
 
-
-
+/* 
+@media(max-width: 1020px)
+{
+  .blog-post-card3-image1 {
+    width: 10%;
+  }
+} */
 
 
 
@@ -361,7 +389,7 @@
   }
 
   .blog-post-card3-image1 {
-    width: 50%;
+    /* width: 50%; */
   }
   .blog-post-card3-button {
     color: #ffffff;
@@ -464,12 +492,13 @@
   .blog-post-card3-blog-post-card {
     flex-direction: column;
     justify-content: space-between;
+    padding: 0px;
   }
   .blog-post-card3-image {
     width: 100%;
   }
   .blog-post-card3-image1 {
-    width: 100%;
+    /* width: 100%; */
   }
   .blog-post-card3-container {
     width: 100%;
@@ -746,6 +775,17 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media (max-width:512px) {
+  .aboutusmainpage-container11 {
+    width: 90%;
+  }
+
+  .aboutusmainpage-container03
+  {
+    width: 90%;
+  }
+}
 /* .aboutusmainpage-container12 {
   flex: 0 0 auto;
   width: 100%;
@@ -833,6 +873,8 @@
   padding: 2.5rem;
 }
 
+
+
 .aboutus-mission-image {
   width: 30%;
 }
@@ -865,6 +907,68 @@
   color: rgba(255, 255, 255, 0.774);
 }
 
+@media (max-width:1120px) {
+  .aboutus-box-mission {
+    width: 50vw;
+    height: 380px;
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .aboutus-mission {
+    /* padding: 1rem; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    text-align: justify;
+  }
+
+  
+.mission-heading {
+ padding-top: 20px;
+}
+
+.aboutus-box-vision {
+  width: 50vw;
+  height: 380px;
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #137229;
+  overflow-y: hidden;
+  padding: 1.5rem;
+}
+
+
+.aboutus-vision {
+  /* padding: 1rem; */
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.vision-heading {
+  padding-top: 20px;
+}
+
+.vision-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.774);
+}
+}
+
 
 @media (max-width:520px) {
   .aboutus-container4 {
@@ -878,7 +982,7 @@
   }
   
   .aboutus-box-vision {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -924,7 +1028,7 @@
   }
   
   .aboutus-box-mission {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 3rem 0;
     display: flex;
