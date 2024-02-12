@@ -47,6 +47,7 @@
 }
 .blog-post-card3-heading {
   margin: 25px 0;
+  font-size: 30px;
   
 }
 .blog-post-card3-container1 {
@@ -57,7 +58,7 @@
   justify-content: flex-start;
 }
 .blog-post-card3-text {
-  color: var(--dl-color-gray-500);
+  color: black;
   /* margin-bottom: var(--dl-space-space-twounits); */
   font-size: 18px;
   line-height: 30px;
@@ -286,7 +287,7 @@
 .training-page-container02 {
   width: 100%;
   /* border: 2px dashed rgba(120, 120, 120, 0.4); */
-  height: 100px;
+  height: 90px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -295,11 +296,12 @@
 .training-page-container03 {
   flex: 0 0 auto;
   width: 100%;
-  height: 100px;
+  height: 60px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  background-color:#d2d3cb ;
 }
 .training-page-text10 {
   font-size: 3rem;
@@ -333,7 +335,7 @@
 .training-page-blog {
   width: 100%;
   display: flex;
-  padding: var(--dl-space-space-oneandhalfunits);
+  /* padding: var(--dl-space-space-oneandhalfunits); */
   padding-top: 0px;
   padding-bottom: 0px;
   max-width: 100%;
@@ -453,12 +455,13 @@
 .training-page-container16 {
   flex: 0 0 auto;
   width: 100%;
-  height: 150px;
+  height: 60px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  /* margin-top: 50px; */
+  margin: 30px;
+  background-color: #d2d3cb;
 }
 .training-page-text11 {
   font-size: 3rem;
@@ -599,12 +602,13 @@
 .training-page-container29 {
   flex: 0 0 auto;
   width: 100%;
-  height: 150px;
+  height: 60px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  /* margin-top: 50px; */
+  margin: 30px 0;
+  background-color: #d2d3cb;
 }
 .training-page-text12 {
   font-size: 3rem;

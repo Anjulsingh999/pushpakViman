@@ -110,7 +110,8 @@
  
   width: 375px;
   object-fit: cover;
-  padding: 1.5rem;
+  padding: 2.5rem;
+  border-radius: 50%;
 }
 .blog-post-card3-image1 {
   width: 260px;
@@ -288,102 +289,6 @@
 {
   margin-bottom: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media(max-width: 1020px)
-{
-  .blog-post-card3-image1 {
-    width: 10%;
-  }
-} */
-
-
-
-
-
-
-
-
-
 
 
 
