@@ -673,7 +673,7 @@
 {
   width: 100%;
   
-  margin: 3rem;
+  margin: 4rem 10rem;
 }
 
 .workshop-border1
@@ -721,12 +721,13 @@
 {
   font-size: 20px;
   font-weight: 600;
-  padding: 1rem 0;
+  padding: 1rem 5rem;
 }
+
 
 .session-contant
 {
-  padding: 0 20px;
+  padding: 0 8rem;
   font-size: 16px;
   line-height: 25px;
 }
