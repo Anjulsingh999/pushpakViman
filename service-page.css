@@ -24,6 +24,13 @@
   margin: 0 1.5rem;
   text-align: justify;
 }
+
+@media (max-width:512px) {
+  .blog-post-card3-container
+  {
+    margin: 0rem;
+  }
+}
 .blog-post-card3-heading {
   margin:25px 0;
   font-size: 30px;
