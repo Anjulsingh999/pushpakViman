@@ -105,9 +105,10 @@
 .droneservices-container {
   width: 100%;
   display: flex;
-  overflow: auto;
+  overflow-x: hidden;
   min-height: 100vh;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -931,7 +932,7 @@
 
   .services-wrapper {
     width: 100%;
-    margin: 0.8rem;
+    margin: 0rem;
   }
 
   .heading-line {
@@ -954,7 +955,7 @@
   }
 
   .session-services {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     padding: 1rem 1rem;
   }
@@ -984,12 +985,12 @@
 
   .image-area img {
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
   }
 
   .advantages-title {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 600;
     text-align: center;
     padding-top: 10px;
