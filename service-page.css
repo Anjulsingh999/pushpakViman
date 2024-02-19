@@ -17,14 +17,16 @@
 .blog-post-card3-container {
   flex: 1;
   display: flex;
-  padding: 20px;
+  padding: 25px;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
+  margin: 0 1.5rem;
+  text-align: justify;
 }
 .blog-post-card3-heading {
-  margin-bottom: var(--dl-space-space-threeunits);
-  
+  margin:25px 0;
+  font-size: 30px;
 }
 .blog-post-card3-container1 {
   display: flex;
@@ -34,8 +36,10 @@
   justify-content: flex-start;
 }
 .blog-post-card3-text {
-  color: var(--dl-color-gray-500);
-  margin-bottom: var(--dl-space-space-twounits);
+  color: black;
+  /* margin-bottom: var(--dl-space-space-twounits); */
+  font-size: 18px;
+  line-height: 30px;
 }
 
 
