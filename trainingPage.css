@@ -337,7 +337,7 @@
 .training-page-blog {
   width: 100%;
   display: flex;
-  /* padding: var(--dl-space-space-oneandhalfunits); */
+  padding: var(--dl-space-space-oneandhalfunits);
   padding-top: 0px;
   padding-bottom: 0px;
   max-width: 100%;
