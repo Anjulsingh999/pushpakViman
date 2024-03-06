@@ -298,12 +298,14 @@
 .training-page-container03 {
   flex: 0 0 auto;
   width: 100%;
-  height: 60px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color:#d2d3cb ;
+  /* background-color:#d2d3cb ; */
+  padding-top: 30px;
+
 }
 .training-page-text10 {
   font-size: 3rem;
