@@ -641,7 +641,6 @@
   }
 }
 
-
 .workshop-wrapper
 {
   width: 100%;
@@ -652,6 +651,7 @@
 .workshop-border1
 {
   border: 6px solid black;
+  margin: 8px;
 }
 
 .workshop-border2
@@ -662,16 +662,22 @@
   justify-content: center;
   align-items: start;
   flex-direction: column;
-  padding:  1.5rem  2.5rem;
+  padding:  1.5rem 1.5rem ;
 }
+
+
 
 .drone-workshop-heading
 {
   font-size: 35px;
-  padding: 1.3rem 0;
+  padding-top: 2.5rem;
   width: 100%;
   text-align: center;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .heading-line
@@ -683,12 +689,7 @@
   margin-top: 7px;
 }
 
-.main-heading-workshop
-{
-  font-size: 25px;
-  font-weight: 600;
-  padding-top: 1.8rem ;
-}
+
 
 .session-workshop
 {
@@ -704,20 +705,108 @@
   line-height: 25px;
 }
 
-@media (max-width:520px) {
+.workshop-image {
+
+  width: 100%;
+  background-image: url(services1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+
+}
+
+.workshop-image img {
+  width: 100%;
+  height: 65vh;
+}
+
+.main-heading-workshop {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+
+.advantages-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10rem;
+}
+
+.container-workshop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 0.5rem 3rem;
+}
+.image-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.image-area img {
+  /* border-radius: 50%; */
+  width: 400px;
+  height: 250px;
+  border: 2px solid black;
+  /* transition: all 0.3s ease-in-out;
+  transform: scale(1);
+  cursor: zoom-in; */
+}
+
+/* .image-area img:hover
+{
+transform: scale(1.9);
+z-index: 999;
+
+} */
+
+
+
+.advantages-title {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 20px;
+}
+
+@media (min-width:0px) and (max-width:350px)
+{
+  .image-area img {
+    /* border-radius: 50%; */
+    width: 200px;
+    height: 140px;
+    border: 2px solid black;
+  }
+  
+  .advantages-title {
+    font-size: 15px;
+  }
+}
+
+@media (min-width:350px) and (max-width:520px) {
   .workshop-border2
 {
   margin: 3px;
   border: 3px solid black;
-  
   padding:  1rem  1.3rem;
 }
 
 .workshop-wrapper
 {
   width: 100%;
-  margin: 1.3rem;
+  margin: 0px;
 }
+
+
 
 .drone-workshop-heading
 {
@@ -729,7 +818,7 @@
 .main-heading-workshop
 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 800;
   padding-top: 1.1rem ;
 }
 
@@ -746,4 +835,213 @@
   font-size: 16px;
   line-height: 25px;
 }
+
+.workshop-image img {
+  height: 22vh;
 }
+.image-area img {
+  /* border-radius: 50%; */
+  width: 220px;
+  height: 150px;
+  border: 2px solid black;
+}
+
+.advantages-title {
+  font-size: 18px;
+}
+
+
+}
+
+@media (min-width:520px) and (max-width:912px)
+{
+  .workshop-wrapper
+{
+  width: 100%;
+  margin: 1rem ;
+}
+
+.drone-workshop-heading
+{
+  font-size: 23px;
+  padding: 1.3rem 0;
+  font-weight: 800;
+}
+.main-heading-workshop
+{
+  font-size: 23px;
+  font-weight: 800;
+  padding-top: 1.1rem ;
+}
+
+  .workshop-image img {
+    height: 28vh;
+  }
+
+
+  .session-workshop
+{
+  font-size: 20px;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.session-contant
+{
+  padding: 0 2.5rem;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.workshop-border2
+{
+  padding:  1.5rem  ;
+}
+
+.image-area img {
+  /* border-radius: 50%; */
+  width: 290px;
+  height: 210px;
+  border: 2px solid black;
+}
+
+.advantages-title {
+  font-size: 20px;
+}
+
+}
+
+@media (min-width:912px) and (max-width:1280px) 
+{
+  .workshop-wrapper
+  {
+    width: 100%;
+    margin: 1.5rem 2rem ;
+  }
+  
+  .drone-workshop-heading
+  {
+    font-size: 23px;
+    padding: 1.3rem 0;
+    font-weight: 800;
+  }
+  .main-heading-workshop
+  {
+    font-size: 23px;
+    font-weight: 800;
+    padding-top: 1.1rem ;
+  }
+  
+    .workshop-image img {
+      height: 38vh;
+    }
+  
+  
+    .session-workshop
+  {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1rem 0;
+  }
+  
+  .session-contant
+  {
+    padding: 0 2.5rem;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  
+  .workshop-border2
+  {
+    padding:  1.5rem  ;
+  }
+
+  .image-area img {
+    /* border-radius: 50%; */
+    width: 290px;
+    height: 220px;
+    border: 2px solid black;
+  }
+
+  .advantages-title {
+    font-size: 20px;
+  }
+
+  
+}
+
+@media (min-width:1280px) and (max-width:1400px) 
+{
+
+  .container-workshop {
+ 
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 0.5rem 3rem;
+}
+
+.workshop-image img {
+  width: 100%;
+  height: 45vh;
+}
+
+.main-heading-workshop {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 1rem 3rem;
+}
+
+.image-area img {
+  /* border-radius: 50%; */
+  width: 340px;
+  height: 250px;
+  border: 2px solid black;
+}
+
+.advantages-title {
+  font-size: 19px;
+}
+
+
+}
+@media (min-width:1400px) and (max-width:1525px)  
+{
+  .main-heading-workshop {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 1rem 4rem;
+  }
+
+  .image-area img {
+    /* border-radius: 50%; */
+    width: 390px;
+    height: 300px;
+    border: 2px solid black;
+  }
+
+  .advantages-title {
+    font-size: 17px;
+  }
+}
+
+@media (min-width:1525px)   
+{
+  .main-heading-workshop {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 1rem 4rem;
+  }
+
+  .image-area img {
+    /* border-radius: 50%; */
+    width: 470px;
+    height: 300px;
+    border: 2px solid black;
+  }
+}
+
+

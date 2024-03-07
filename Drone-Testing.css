@@ -4,27 +4,33 @@
     align-items: center;
     flex-direction: row;
   }
+  
   .navigation-links2-text {
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
   }
+  
   .navigation-links2-text1 {
     font-size: 22px;
     margin-left: var(--dl-space-space-twounits);
   }
+  
   .navigation-links2-text2 {
     font-size: 22px;
     margin-left: var(--dl-space-space-twounits);
   }
+  
   .navigation-links2-text3 {
     font-size: 22px;
     margin-left: var(--dl-space-space-twounits);
   }
+  
   .navigation-links2-text4 {
     font-size: 22px;
     margin-left: var(--dl-space-space-twounits);
   }
+  
   .navigation-links2-text5 {
     font-size: 22px;
     margin-left: var(--dl-space-space-twounits);
@@ -65,47 +71,56 @@
       flex-direction: column;
       justify-content: center;
     }
+  
     .navigation-links2-text {
       margin-bottom: var(--dl-space-space-unit);
     }
+  
     .navigation-links2-text1 {
       margin-left: 0;
       margin-bottom: var(--dl-space-space-unit);
     }
+  
     .navigation-links2-text2 {
       margin-left: 0;
       margin-bottom: var(--dl-space-space-unit);
     }
+  
     .navigation-links2-text3 {
       margin-left: 0;
       margin-bottom: var(--dl-space-space-unit);
     }
+  
     .navigation-links2-text4 {
       margin-left: 0;
       margin-bottom: var(--dl-space-space-unit);
     }
+  
     .navigation-links2-text5 {
       margin-left: 0;
       margin-bottom: var(--dl-space-space-unit);
     }
   }
   
-  .design-workshop-container {
+  .droneservices-container {
     width: 100%;
     display: flex;
-    overflow: auto;
+    overflow-x: hidden;
     min-height: 100vh;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
   }
-  .design-workshop-container01 {
+  
+  .droneservices-container01 {
     flex: 0 0 auto;
     width: 100%;
     height: auto;
     display: flex;
     align-items: flex-start;
   }
-  .design-workshop-header {
+  
+  .droneservices-header {
     width: 100%;
     display: flex;
     max-width: 100%;
@@ -116,19 +131,23 @@
     padding-bottom: var(--dl-space-space-twounits);
     justify-content: space-between;
   }
-  .design-workshop-image {
+  
+  .droneservices-image {
     height: 3rem;
   }
-  .design-workshop-nav {
+  
+  .droneservices-nav {
     display: flex;
   }
-  .design-workshop-btn-group {
+  
+  .droneservices-btn-group {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
   }
-  .design-workshop-register {
+  
+  .droneservices-register {
     color: rgb(255, 255, 255);
     font-style: normal;
     font-weight: 900;
@@ -136,14 +155,17 @@
     text-transform: capitalize;
     background-color: rgb(0, 0, 0);
   }
-  .design-workshop-burger-menu {
+  
+  .droneservices-burger-menu {
     display: none;
   }
-  .design-workshop-icon {
+  
+  .droneservices-icon {
     width: var(--dl-size-size-xsmall);
     height: var(--dl-size-size-xsmall);
   }
-  .design-workshop-mobile-menu {
+  
+  .droneservices-mobile-menu {
     top: 0px;
     left: 0px;
     width: 100%;
@@ -156,45 +178,54 @@
     justify-content: space-between;
     background-color: #fff;
   }
-  .design-workshop-nav1 {
+  
+  .droneservices-nav1 {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
   }
-  .design-workshop-container02 {
+  
+  .droneservices-container02 {
     width: 100%;
     display: flex;
     align-items: center;
     margin-bottom: var(--dl-space-space-threeunits);
     justify-content: space-between;
   }
-  .design-workshop-image1 {
+  
+  .droneservices-image1 {
     height: 2rem;
   }
-  .design-workshop-menu-close {
+  
+  .droneservices-menu-close {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .design-workshop-icon02 {
+  
+  .droneservices-icon02 {
     width: var(--dl-size-size-xsmall);
     height: var(--dl-size-size-xsmall);
   }
-  .design-workshop-icon04 {
-    width: var(--dl-size-size-xsmall);
-    height: var(--dl-size-size-xsmall);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .design-workshop-icon06 {
+  
+  .droneservices-icon04 {
     width: var(--dl-size-size-xsmall);
     height: var(--dl-size-size-xsmall);
     margin-right: var(--dl-space-space-twounits);
   }
-  .design-workshop-icon08 {
+  
+  .droneservices-icon06 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  
+  .droneservices-icon08 {
     width: var(--dl-size-size-xsmall);
     height: var(--dl-size-size-xsmall);
   }
-  .design-workshop-container03 {
+  
+  .droneservices-container03 {
     flex: 0 0 auto;
     width: 100%;
     /* border: 2px dashed rgba(120, 120, 120, 0.4); */
@@ -202,7 +233,8 @@
     display: flex;
     align-items: flex-start;
   }
-  .design-workshop-hero {
+  
+  .droneservices-hero {
     width: 100%;
     display: flex;
     padding: var(--dl-space-space-threeunits);
@@ -214,7 +246,8 @@
     background-image: url('https://img.freepik.com/free-photo/drone-conducting-survey-vibrant-green-farmland-precision-agriculture_157027-2862.jpg?t=st=1701286492~exp=1701290092~hmac=607bfbb9ad8b350cae3ba0aa7d6e8e0935c76c80fbec9e53a2f7d753f58a3f5a&w=1060');
     background-position: center;
   }
-  .design-workshop-text {
+  
+  .droneservices-text {
     color: var(--dl-color-gray-white);
     width: 640px;
     height: 67px;
@@ -226,7 +259,8 @@
     font-weight: 700;
     margin-bottom: 12px;
   }
-  .design-workshop-button {
+  
+  .droneservices-button {
     color: var(--dl-color-gray-white);
     transition: 0.3s;
     padding-top: var(--dl-space-space-unit);
@@ -235,10 +269,12 @@
     padding-bottom: var(--dl-space-space-unit);
     background-color: var(--dl-color-gray-black);
   }
-  .design-workshop-button:hover {
+  
+  .droneservices-button:hover {
     transform: scale(1.02);
   }
-  .design-workshop-container04 {
+  
+  .droneservices-container04 {
     flex: 0 0 auto;
     width: 100%;
     /* border: 2px dashed rgba(120, 120, 120, 0.4); */
@@ -246,7 +282,8 @@
     display: flex;
     align-items: flex-start;
   }
-  .design-workshop-container05 {
+  
+  .droneservices-container05 {
     flex: 0 0 auto;
     width: 100%;
     border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -254,7 +291,8 @@
     display: flex;
     align-items: flex-start;
   }
-  .design-workshop-container06 {
+  
+  .droneservices-container06 {
     flex: 0 0 auto;
     width: 100%;
     border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -262,7 +300,8 @@
     display: flex;
     align-items: flex-start;
   }
-  .design-workshop-container07 {
+  
+  .droneservices-container07 {
     flex: 0 0 auto;
     width: 100%;
     border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -270,7 +309,8 @@
     display: flex;
     align-items: flex-start;
   }
-  .design-workshop-container08 {
+  
+  .droneservices-container08 {
     flex: 0 0 auto;
     width: 100%;
     border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -278,7 +318,8 @@
     display: flex;
     align-items: flex-start;
   }
-  .design-workshop-container09 {
+  
+  .droneservices-container09 {
     flex: 0 0 auto;
     width: 100%;
     border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -286,7 +327,8 @@
     display: flex;
     align-items: flex-start;
   }
-  .design-workshop-container10 {
+  
+  .droneservices-container10 {
     flex: 0 0 auto;
     width: 100%;
     border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -294,7 +336,8 @@
     display: flex;
     align-items: flex-start;
   }
-  .design-workshop-container11 {
+  
+  .droneservices-container11 {
     flex: 0 0 auto;
     width: 100%;
     border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -302,7 +345,8 @@
     display: flex;
     align-items: flex-start;
   }
-  .design-workshop-container12 {
+  
+  .droneservices-container12 {
     flex: 0 0 auto;
     width: 100%;
     border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -310,50 +354,59 @@
     display: flex;
     align-items: flex-start;
   }
-  .design-workshop-social-bar {
+  
+  .droneservices-social-bar {
     width: 100%;
     display: flex;
     padding: var(--dl-space-space-threeunits);
     justify-content: center;
   }
-  .design-workshop-icon10 {
+  
+  .droneservices-icon10 {
     width: var(--dl-size-size-xsmall);
     height: var(--dl-size-size-xsmall);
     margin-right: var(--dl-space-space-twounits);
   }
-  .design-workshop-icon12 {
+  
+  .droneservices-icon12 {
     width: var(--dl-size-size-xsmall);
     height: var(--dl-size-size-xsmall);
     margin-right: var(--dl-space-space-twounits);
   }
-  .design-workshop-icon14 {
+  
+  .droneservices-icon14 {
     width: var(--dl-size-size-xsmall);
     height: var(--dl-size-size-xsmall);
     margin-right: var(--dl-space-space-twounits);
   }
-  .design-workshop-icon16 {
+  
+  .droneservices-icon16 {
     width: var(--dl-size-size-xsmall);
     height: var(--dl-size-size-xsmall);
     margin-right: var(--dl-space-space-twounits);
   }
-  .design-workshop-icon18 {
+  
+  .droneservices-icon18 {
     width: var(--dl-size-size-xsmall);
     height: var(--dl-size-size-xsmall);
   }
-  .design-workshop-container13 {
+  
+  .droneservices-container13 {
     flex: 0 0 auto;
     width: 100%;
     display: flex;
     align-items: flex-start;
   }
-  .design-workshop-container14 {
+  
+  .droneservices-container14 {
     flex: 0 0 auto;
     width: 100%;
     height: auto;
     display: flex;
     align-items: flex-start;
   }
-  .design-workshop-footer {
+  
+  .droneservices-footer {
     width: 100%;
     display: flex;
     max-width: 100%;
@@ -365,85 +418,43 @@
     padding-bottom: var(--dl-space-space-twounits);
     justify-content: space-between;
   }
-  .design-workshop-container15 {
+  
+  .droneservices-container15 {
     width: 100%;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
   }
-  .design-workshop-logo {
+  
+  .droneservices-logo {
     display: flex;
     max-width: var(--dl-size-size-maxwidth);
     align-items: flex-start;
     flex-direction: column;
   }
-  .design-workshop-image2 {
+  
+  .droneservices-image2 {
     width: 200px;
     object-fit: cover;
   }
-  .design-workshop-links-container {
+  
+  .droneservices-links-container {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
   }
-  .design-workshop-container16 {
-    display: flex;
-    align-items: flex-start;
-    margin-right: 10rem;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .design-workshop-product-container {
-    flex: 0 0 auto;
-    display: flex;
-    align-items: flex-start;
-    margin-right: 10rem;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  .design-workshop-text04 {
-    font-weight: 700;
-    margin-bottom: var(--dl-space-space-oneandhalfunits);
-  }
-  .design-workshop-text05 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .design-workshop-text06 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .design-workshop-text07 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .design-workshop-company-container {
-    flex: 0 0 auto;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  .design-workshop-text09 {
-    font-weight: 700;
-    margin-bottom: var(--dl-space-space-oneandhalfunits);
-  }
-  .design-workshop-text10 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .design-workshop-text11 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .design-workshop-text12 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .design-workshop-container17 {
+  
+  .droneservices-container16 {
     display: flex;
     align-items: flex-start;
     margin-right: 10rem;
     flex-direction: row;
     justify-content: space-between;
   }
-  .design-workshop-product-container1 {
+  
+  .droneservices-product-container {
     flex: 0 0 auto;
     display: flex;
     align-items: flex-start;
@@ -451,217 +462,329 @@
     flex-direction: column;
     justify-content: flex-start;
   }
-  .design-workshop-text14 {
+  
+  .droneservices-text04 {
     font-weight: 700;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .design-workshop-text15 {
+  
+  .droneservices-text05 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .design-workshop-text16 {
+  
+  .droneservices-text06 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .design-workshop-text17 {
+  
+  .droneservices-text07 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .design-workshop-company-container1 {
+  
+  .droneservices-company-container {
     flex: 0 0 auto;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
   }
-  .design-workshop-text19 {
+  
+  .droneservices-text09 {
     font-weight: 700;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .design-workshop-text20 {
+  
+  .droneservices-text10 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .design-workshop-text21 {
+  
+  .droneservices-text11 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .design-workshop-text22 {
+  
+  .droneservices-text12 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .design-workshop-container18 {
+  
+  .droneservices-container17 {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 10rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .droneservices-product-container1 {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 10rem;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .droneservices-text14 {
+    font-weight: 700;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  
+  .droneservices-text15 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  
+  .droneservices-text16 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  
+  .droneservices-text17 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  
+  .droneservices-company-container1 {
+    flex: 0 0 auto;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
   }
-  .design-workshop-contact {
+  
+  .droneservices-text19 {
+    font-weight: 700;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  
+  .droneservices-text20 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  
+  .droneservices-text21 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  
+  .droneservices-text22 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  
+  .droneservices-container18 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .droneservices-contact {
     display: flex;
     align-items: flex-start;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
     flex-direction: column;
     justify-content: flex-start;
   }
-  .design-workshop-text24 {
+  
+  .droneservices-text24 {
     font-weight: 700;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .design-workshop-text25 {
+  
+  .droneservices-text25 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .design-workshop-separator {
+  
+  .droneservices-separator {
     width: 100%;
     height: 1px;
     margin-top: var(--dl-space-space-twounits);
     margin-bottom: var(--dl-space-space-twounits);
     background-color: var(--dl-color-gray-900);
   }
-  .design-workshop-text27 {
+  
+  .droneservices-text27 {
     align-self: center;
   }
+  
   @media(max-width: 1600px) {
-    .design-workshop-header {
+    .droneservices-header {
       height: 111px;
       align-self: flex-start;
       padding-top: var(--dl-space-space-halfunit);
       padding-bottom: var(--dl-space-space-halfunit);
     }
-    .design-workshop-image {
+  
+    .droneservices-image {
       width: 90px;
       height: 80px;
     }
-    .design-workshop-hero {
+  
+    .droneservices-hero {
       background-image: url('https://img.freepik.com/free-photo/drone-conducting-survey-vibrant-green-farmland-precision-agriculture_157027-2862.jpg?t=st=1701286492~exp=1701290092~hmac=607bfbb9ad8b350cae3ba0aa7d6e8e0935c76c80fbec9e53a2f7d753f58a3f5a&w=1060');
     }
-    .design-workshop-image2 {
+  
+    .droneservices-image2 {
       height: 167px;
     }
   }
+  
   @media(max-width: 1280px) {
-    .design-workshop-hero {
+    .droneservices-hero {
       min-height: 80vh;
     }
-    .design-workshop-footer {
+  
+    .droneservices-footer {
       flex-direction: column;
     }
-    .design-workshop-container16 {
+  
+    .droneservices-container16 {
       margin-right: var(--dl-space-space-fourunits);
     }
-    .design-workshop-product-container {
+  
+    .droneservices-product-container {
       margin-right: var(--dl-space-space-fourunits);
     }
-    .design-workshop-container17 {
+  
+    .droneservices-container17 {
       margin-right: var(--dl-space-space-fourunits);
     }
-    .design-workshop-product-container1 {
+  
+    .droneservices-product-container1 {
       margin-right: var(--dl-space-space-fourunits);
     }
   }
+  
   @media(max-width: 912px) {
-    .design-workshop-header {
+    .droneservices-header {
       padding-left: var(--dl-space-space-twounits);
       padding-right: var(--dl-space-space-twounits);
     }
-    .design-workshop-nav {
+  
+    .droneservices-nav {
       display: none;
     }
-    .design-workshop-btn-group {
+  
+    .droneservices-btn-group {
       display: none;
     }
-    .design-workshop-burger-menu {
+  
+    .droneservices-burger-menu {
       display: flex;
       align-items: center;
       justify-content: center;
     }
-    .design-workshop-hero {
+  
+    .droneservices-hero {
       padding-left: var(--dl-space-space-twounits);
       padding-right: var(--dl-space-space-twounits);
     }
-    .design-workshop-footer {
+  
+    .droneservices-footer {
       padding-left: var(--dl-space-space-twounits);
       padding-right: var(--dl-space-space-twounits);
     }
-    .design-workshop-container15 {
+  
+    .droneservices-container15 {
       align-items: center;
       flex-direction: column;
       justify-content: space-between;
     }
-    .design-workshop-logo {
+  
+    .droneservices-logo {
       align-items: center;
     }
-    .design-workshop-links-container {
+  
+    .droneservices-links-container {
       width: 100%;
       align-items: flex-start;
       flex-direction: row;
       justify-content: center;
     }
-    .design-workshop-container16 {
+  
+    .droneservices-container16 {
       margin-right: var(--dl-space-space-fourunits);
     }
-    .design-workshop-product-container {
+  
+    .droneservices-product-container {
       margin-right: var(--dl-space-space-fourunits);
     }
-    .design-workshop-container17 {
+  
+    .droneservices-container17 {
       margin-right: var(--dl-space-space-fourunits);
     }
-    .design-workshop-product-container1 {
+  
+    .droneservices-product-container1 {
       margin-right: var(--dl-space-space-fourunits);
     }
   }
+  
   @media(max-width: 767px) {
-    .design-workshop-social-bar {
+    .droneservices-social-bar {
       padding-left: var(--dl-space-space-twounits);
       padding-right: var(--dl-space-space-twounits);
     }
   }
+  
   @media(max-width: 540px) {
-    .design-workshop-header {
+    .droneservices-header {
       padding: var(--dl-space-space-unit);
     }
-    .design-workshop-mobile-menu {
+  
+    .droneservices-mobile-menu {
       padding: 16px;
     }
-    .design-workshop-hero {
+  
+    .droneservices-hero {
       padding-top: var(--dl-space-space-twounits);
       padding-left: var(--dl-space-space-unit);
       padding-right: var(--dl-space-space-unit);
       padding-bottom: var(--dl-space-space-twounits);
     }
-    .design-workshop-text {
+  
+    .droneservices-text {
       width: auto;
       height: 164px;
     }
-    .design-workshop-button {
+  
+    .droneservices-button {
       padding-right: var(--dl-space-space-twounits);
     }
-    .design-workshop-footer {
+  
+    .droneservices-footer {
       padding: var(--dl-space-space-unit);
     }
-    .design-workshop-container15 {
+  
+    .droneservices-container15 {
       align-items: center;
       flex-direction: column;
     }
-    .design-workshop-links-container {
+  
+    .droneservices-links-container {
       align-items: center;
       flex-direction: column;
     }
-    .design-workshop-container16 {
+  
+    .droneservices-container16 {
       margin-right: 0px;
       margin-bottom: var(--dl-space-space-twounits);
     }
-    .design-workshop-container17 {
+  
+    .droneservices-container17 {
       margin-right: 0px;
     }
-    .design-workshop-container18 {
+  
+    .droneservices-container18 {
       margin-top: var(--dl-space-space-oneandhalfunits);
       align-items: flex-start;
       margin-bottom: 0px;
     }
-    .design-workshop-contact {
+  
+    .droneservices-contact {
       align-items: flex-start;
       margin-bottom: var(--dl-space-space-unit);
     }
-    .design-workshop-text27 {
+  
+    .droneservices-text27 {
       text-align: center;
     }
   }
+  
   @media(max-width: 479px) {
-    .design-workshop-social-bar {
+    .droneservices-social-bar {
       padding-top: var(--dl-space-space-twounits);
       padding-left: var(--dl-space-space-unit);
       padding-right: var(--dl-space-space-unit);
@@ -669,552 +792,370 @@
     }
   }
   
-  /* .workshop-wrapper
-  {
+  
+  .services-wrapper {
     width: 100%;
-    
-    margin: 4rem 10rem;
+    margin: 4rem 8rem;
   }
   
-  .workshop-border1
-  {
+  .services-border1 {
     border: 6px solid black;
+    margin: 8px;
   }
   
-  .workshop-border2
-  {
+  .services-border2 {
     margin: 3px;
     border: 3px solid black;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
-    padding:  1.5rem  2.5rem;
+    padding: 1.5rem 1.5rem;
   }
   
-  .drone-workshop-heading
-  {
+  .drone-services-heading {
     font-size: 35px;
-    padding: 1.3rem 0;
-    width: 100%;
+    padding-top: 2.5rem;
+    width: auto;
     text-align: center;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   
-  .heading-line
-  {
+  .heading-line {
     width: 100%;
-    height: 4px;
+    height: 2px;
     color: black;
     background-color: black;
     margin-top: 7px;
+    text-align: center;
   }
   
-  .main-heading-workshop
-  {
-    font-size: 25px;
-    font-weight: 600;
-    padding-top: 1.8rem ;
-  }
-  
-  .session-workshop
-  {
-    font-size: 20px;
+  .main-heading-services {
+    font-size: 35px;
     font-weight: 600;
     padding: 1rem 5rem;
   }
   
-  .session-contant
-  {
+  .session-services {
+    font-size: 20px;
+    /* font-weight: 600; */
+    padding: 3rem ;
+    line-height: 2rem;
+    text-align: justify;
+  
+  }
+  
+  .session-contant {
     padding: 0 8rem;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 25px;
   }
   
-  .title-heading
-  {
-    font-size: 25px;
-    font-weight: 600;
-    margin-top: 20px;
-    /* padding: 10px; */
-    /* color: rgb(255, 255, 255);
-    border: 2px solid black;
-  }
-
-  .title-heading-inner
-  {
-    border: 1px solid black;
-    margin: 2px;
-    padding: 10px;
-    background-color: #137229;
-  }
+  .services-image {
   
-  @media (max-width:520px) {
-    .workshop-border2
-  {
-    margin: 3px;
-    border: 3px solid black;
-    
-    padding:  1rem  1.3rem;
-  }
-  
-  .workshop-wrapper
-  {
     width: 100%;
-    margin: 1.3rem;
+    background-image: url(services1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+  
   }
   
-  .drone-workshop-heading
-  {
-    font-size: 23px;
-    padding: 1.1rem 0;
-    font-weight: 800;
+  .services-image img {
+    width: 100%;
+    height: 50vh;
   }
   
-  .main-heading-workshop
-  {
-    font-size: 20px;
-    font-weight: 600;
-    padding-top: 1.1rem ;
+  .advantages-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8rem;
   }
   
-  .session-workshop
-  {
-    font-size: 20px;
-    font-weight: 600;
-    padding: 1rem 0;
+  .image-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
   }
   
-  .session-contant
-  {
-    padding: 0 20px;
-    font-size: 16px;
-    line-height: 25px;
-  }
-  }  */
-
-
-  .workshop-wrapper
-{
-  width: 100%;
-  
-  margin: 4rem 10rem;
-}
-
-.workshop-border1
-{
-  border: 6px solid black;
-  margin: 8px;
-}
-
-.workshop-border2
-{
-  margin: 3px;
-  border: 3px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  flex-direction: column;
-  padding:  1.5rem 1.5rem ;
-}
-
-
-
-.drone-workshop-heading
-{
-  font-size: 35px;
-  padding-top: 2.5rem;
-  width: 100%;
-  text-align: center;
-  font-weight: 700;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.heading-line
-{
-  width: 100%;
-  height: 2px;
-  color: black;
-  background-color: black;
-  margin-top: 7px;
-}
-
-
-
-.session-workshop
-{
-  font-size: 20px;
-  font-weight: 600;
-  padding: 1rem 5rem;
-}
-
-.session-contant
-{
-  padding: 0 8rem;
-  font-size: 16px;
-  line-height: 25px;
-}
-
-.workshop-image {
-
-  width: 100%;
-  background-image: url(services1.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-
-
-}
-
-.workshop-image img {
-  width: 100%;
-  height: 65vh;
-}
-
-.main-heading-workshop {
-  font-size: 22px;
-  font-weight: 600;
-  padding: 1rem 0;
-}
-
-.title-heading
-{
-  font-size: 25px;
-  font-weight: 600;
-  margin-top: 20px;
-  /* padding: 10px; */
-   color: rgb(255, 255, 255);
-  border: 2px solid black;
-}
-
-.title-heading-inner
-{
-  border: 1px solid black;
-  margin: 2px;
-  padding: 10px;
-  background-color: #137229;
-}
-
-
-.advantages-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10rem;
-}
-
-.container-workshop {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  flex-wrap: wrap;
-  gap: 0.5rem 3rem;
-}
-.image-area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 2rem;
-}
-
-.image-area img {
-  /* border-radius: 50%; */
-  width: 400px;
-  height: 250px;
-  border: 2px solid black;
-  /* transition: all 0.3s ease-in-out;
-  transform: scale(1);
-  cursor: zoom-in; */
-}
-
-/* .image-area img:hover
-{
-transform: scale(1.9);
-z-index: 999;
-
-} */
-
-
-
-.advantages-title {
-  font-size: 25px;
-  font-weight: 600;
-  text-align: center;
-  padding-top: 20px;
-}
-
-@media (min-width:0px) and (max-width:350px)
-{
   .image-area img {
-    /* border-radius: 50%; */
+    border-radius: 50%;
     width: 200px;
-    height: 140px;
-    border: 2px solid black;
+    height: 200px;
   }
   
   .advantages-title {
-    font-size: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
   }
-}
-
-@media (min-width:350px) and (max-width:520px) {
-  .workshop-border2
-{
-  margin: 3px;
-  border: 3px solid black;
-  padding:  1rem  1.3rem;
-}
-
-.workshop-wrapper
-{
-  width: 100%;
-  margin: 0px;
-}
-
-
-
-.drone-workshop-heading
-{
-  font-size: 23px;
-  padding: 1.1rem 0;
-  font-weight: 800;
-}
-
-.main-heading-workshop
-{
-  font-size: 20px;
-  font-weight: 800;
-  padding-top: 1.1rem ;
-}
-
-.session-workshop
-{
-  font-size: 20px;
-  font-weight: 600;
-  padding: 1rem 0;
-}
-
-.session-contant
-{
-  padding: 0 20px;
-  font-size: 16px;
-  line-height: 25px;
-}
-
-.workshop-image img {
-  height: 22vh;
-}
-.image-area img {
-  /* border-radius: 50%; */
-  width: 220px;
-  height: 150px;
-  border: 2px solid black;
-}
-
-.advantages-title {
-  font-size: 18px;
-}
-
-
-}
-
-@media (min-width:520px) and (max-width:912px)
-{
-  .workshop-wrapper
-{
-  width: 100%;
-  margin: 1rem ;
-}
-
-.drone-workshop-heading
-{
-  font-size: 23px;
-  padding: 1.3rem 0;
-  font-weight: 800;
-}
-.main-heading-workshop
-{
-  font-size: 23px;
-  font-weight: 800;
-  padding-top: 1.1rem ;
-}
-
-  .workshop-image img {
-    height: 28vh;
-  }
-
-
-  .session-workshop
-{
-  font-size: 20px;
-  font-weight: 600;
-  padding: 1rem 0;
-}
-
-.session-contant
-{
-  padding: 0 2.5rem;
-  font-size: 16px;
-  line-height: 25px;
-}
-
-.workshop-border2
-{
-  padding:  1.5rem  ;
-}
-
-.image-area img {
-  /* border-radius: 50%; */
-  width: 290px;
-  height: 210px;
-  border: 2px solid black;
-}
-
-.advantages-title {
-  font-size: 20px;
-}
-
-}
-
-@media (min-width:912px) and (max-width:1280px) 
-{
-  .workshop-wrapper
-  {
+  
+  .container-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px auto;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      ". . .";
+    height: auto;
     width: 100%;
-    margin: 1.5rem 2rem ;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap; */
   }
   
-  .drone-workshop-heading
-  {
-    font-size: 23px;
-    padding: 1.3rem 0;
-    font-weight: 800;
-  }
-  .main-heading-workshop
-  {
-    font-size: 23px;
-    font-weight: 800;
-    padding-top: 1.1rem ;
+  
+  
+  
+  
+  @media (max-width:520px) {
+    .services-border2 {
+      margin: 3px;
+      border: 3px solid black;
+  
+      padding: 1rem;
+    }
+  
+    .services-wrapper {
+      width: 100%;
+      margin: 0rem;
+    }
+  
+    .heading-line {
+      width: 100%;
+  
+    }
+  
+    .drone-services-heading {
+      font-size: 23px;
+      padding: 1.1rem 0;
+      font-weight: 800;
+    }
+  
+    .main-heading-services {
+      font-size: 23px;
+      font-weight: 800;
+      text-align: center;
+  
+  
+    }
+  
+    .session-services {
+      font-size: 18px;
+      font-weight: 600;
+      padding: 1rem 1rem;
+    }
+  
+    .session-contant {
+      padding: 0 20px;
+      font-size: 16px;
+      line-height: 25px;
+    }
+  
+    .advantages-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  
+    }
+  
+    .image-area {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0.5rem;
+      padding: 10px;
+    }
+  
+    .image-area img {
+      border-radius: 50%;
+      width: 65px;
+      height: 65px;
+    }
+  
+    .advantages-title {
+      font-size: 11px;
+      font-weight: 600;
+      text-align: center;
+      padding-top: 10px;
+    }
+  
+    .services-image img {
+      width: 100%;
+      height: auto;
+    }
   }
   
-    .workshop-image img {
-      height: 38vh;
+  
+  @media (min-width:520px) and (max-width:912px) {
+    .services-border2 {
+      margin: 3px;
+      border: 3px solid black;
+  
+      padding: 1rem;
+    }
+  
+    .services-wrapper {
+      width: 100%;
+      margin: 0.8rem;
     }
   
   
-    .session-workshop
-  {
-    font-size: 20px;
-    font-weight: 600;
-    padding: 1rem 0;
+  
+    .drone-services-heading {
+      font-size: 23px;
+      padding: 1.1rem 0;
+      font-weight: 800;
+    }
+  
+    .main-heading-services {
+      font-size: 23px;
+      font-weight: 800;
+      text-align: center;
+  
+  
+    }
+  
+    .session-services {
+      font-size: 20px;
+      font-weight: 600;
+      padding: 1rem 1rem;
+    }
+  
+    .session-contant {
+      padding: 0 20px;
+      font-size: 16px;
+      line-height: 25px;
+    }
+  
+    .advantages-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  
+    }
+  
+    .image-area {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0.5rem;
+      padding: 10px;
+    }
+  
+    .image-area img {
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+    }
+  
+    .advantages-title {
+      font-size: 12px;
+      font-weight: 600;
+      text-align: center;
+      padding-top: 10px;
+    }
+  
+    .services-image img {
+      width: 100%;
+      height: auto;
+    }
   }
   
-  .session-contant
-  {
-    padding: 0 2.5rem;
-    font-size: 16px;
-    line-height: 25px;
-  }
   
-  .workshop-border2
-  {
-    padding:  1.5rem  ;
-  }
-
-  .image-area img {
-    /* border-radius: 50%; */
-    width: 290px;
-    height: 220px;
-    border: 2px solid black;
-  }
-
-  .advantages-title {
-    font-size: 20px;
-  }
-
   
-}
-
-@media (min-width:1280px) and (max-width:1400px) 
-{
-
-  .container-workshop {
- 
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  flex-wrap: wrap;
-  gap: 0.5rem 3rem;
-}
-
-.workshop-image img {
-  width: 100%;
-  height: 45vh;
-}
-
-.main-heading-workshop {
-  font-size: 22px;
-  font-weight: 600;
-  padding: 1rem 3rem;
-}
-
-.image-area img {
-  /* border-radius: 50%; */
-  width: 340px;
-  height: 250px;
-  border: 2px solid black;
-}
-
-.advantages-title {
-  font-size: 19px;
-}
-
-
-}
-@media (min-width:1400px) and (max-width:1525px)  
-{
-  .main-heading-workshop {
-    font-size: 22px;
-    font-weight: 600;
-    padding: 1rem 4rem;
-  }
-
-  .image-area img {
-    /* border-radius: 50%; */
-    width: 390px;
-    height: 300px;
-    border: 2px solid black;
-  }
-
-  .advantages-title {
-    font-size: 17px;
-  }
-}
-
-@media (min-width:1525px)   
-{
-  .main-heading-workshop {
-    font-size: 22px;
-    font-weight: 600;
-    padding: 1rem 4rem;
-  }
-
-  .image-area img {
-    /* border-radius: 50%; */
-    width: 470px;
-    height: 300px;
-    border: 2px solid black;
-  }
-}
-
-
-
+  @media (min-width:912px) and (max-width:1280px) {
   
+    .services-wrapper {
+      width: 100%;
+      margin: 3rem 5rem;
+    }
+  
+    .services-border2 {
+      margin: 3px;
+      border: 3px solid black;
+      padding: 1rem;
+    }
+  
+  
+  
+    .drone-services-heading {
+      font-size: 23px;
+      padding: 1.1rem 0;
+      font-weight: 800;
+    }
+  
+    .main-heading-services {
+      font-size: 23px;
+      font-weight: 800;
+      text-align: center;
+      padding: 1rem ;
+  
+    }
+  
+    .session-services {
+      font-size: 20px;
+      font-weight: 600;
+      padding: 1rem 1rem;
+    }
+  
+    .session-contant {
+      padding: 0 20px;
+      font-size: 16px;
+      line-height: 25px;
+    }
+  
+    .advantages-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  
+    }
+  
+    .image-area {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0.5rem;
+      padding: 10px;
+    }
+  
+    .image-area img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+  
+    .advantages-title {
+      font-size: 17px;
+      font-weight: 600;
+      text-align: center;
+      padding-top: 10px;
+    }
+  
+    .services-image img {
+      width: 100%;
+      height: 45vh;
+    }
+  }
